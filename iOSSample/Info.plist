@@ -27,6 +27,8 @@
     <string>ca-app-pub-3940256099942544~1458002511</string>
     <key>BidmadAppDomain</key>
     <string>common-serving-bidmad.adop.co.kr</string>
+    <key>NSCameraUsageDescription</key>
+    <string>카메라 접근 권한이 필요합니다.</string>
 </dict>
 
 </plist>
