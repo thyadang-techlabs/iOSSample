@@ -1,0 +1,10 @@
+framework module LuckyVerse {
+  umbrella header "LuckyVerse.h"
+  
+  export *
+  module * { export * }
+} 
+module LuckyVerse.Swift {
+  header "LuckyVerse-Swift.h"
+  requires objc
+}
