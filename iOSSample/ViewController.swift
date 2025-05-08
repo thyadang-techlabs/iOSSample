@@ -23,8 +23,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        LuckyVerseSDK.shared.updateUSER_ID(userId: "hana.test.001")
-        LuckyVerseSDK.shared.updateAPP_KEY(APP_KEY: "hana.test.001")
+        LuckyVerseSDK.shared.updateUSER_ID(userId: "luckybite.hana.test001")
+        LuckyVerseSDK.shared.updateAPP_KEY(APP_KEY: "luckybite.hana.test001")
+        LuckyVerseSDK.shared.updateIDFA(IDFA: "IDFA")
+        LuckyVerseSDK.shared.setGoToSettingSwift {
+            print("SEEEE")
+        }
         
         setupUI()
     }
