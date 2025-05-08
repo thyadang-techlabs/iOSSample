@@ -370,6 +370,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LuckyVerseSD
 - (void)setInterstitialAdZoneId:(NSString * _Nonnull)zoneId;
 - (void)setRewardAdZoneId:(NSString * _Nonnull)zoneId;
 - (void)setBannerAdZoneId:(NSString * _Nonnull)zoneId;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull sdkVersion;)
++ (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
++ (void)setSdkVersion:(NSString * _Nonnull)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)initialize;
