@@ -382,6 +382,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull sdkV
 - (void)setGoToSettingObjc:(void (^ _Nonnull)(void))callback;
 - (void)setGoToSettingSwift:(void (^ _Nonnull)(void))callback;
 - (void)openLuckyVerseMain;
+- (void)openLuckyVerseByPushWithPushKey:(NSString * _Nonnull)pushKey;
 - (void)openLuckyVerseMyPage;
 - (void)openLuckyVerseSajuInfo;
 - (void)openLuckyVersePhoneAuth;
