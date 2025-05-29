@@ -7,7 +7,7 @@ PODS:
   - Google-Mobile-Ads-SDK (11.10.0):
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleUserMessagingPlatform (2.1.0)
-  - LuckyBiteiOS (0.3.99):
+  - LuckyBiteiOS (0.4.0):
     - BidmadSDK (= 6.12.0)
     - OpenBiddingHelper (= 6.12.0)
   - OpenBiddingHelper (6.12.0):
@@ -31,7 +31,7 @@ SPEC CHECKSUMS:
   BidmadSDK: 1eec1730c591f6b23f75ecc91ffcba35ddf5003a
   Google-Mobile-Ads-SDK: 13e6e98edfd78ad8d8a791edb927658cc260a56f
   GoogleUserMessagingPlatform: dce302b8f1b84d6e945812ee7a15c3f65a102cbf
-  LuckyBiteiOS: dba833922c5daf0533dc23a9ee519d8d33bc09f1
+  LuckyBiteiOS: 700d6abf3b3a22fceac8d13f3ba16a070be102a8
   OpenBiddingHelper: cd3877bd82150a27e3155d077f3b6cf075eae709
 
 PODFILE CHECKSUM: b9d0f874797b8ab67145110e5ccb9e182051300d
