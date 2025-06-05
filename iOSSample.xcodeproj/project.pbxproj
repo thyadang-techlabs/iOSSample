@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B45EAD38BC3321E0D886C9EC /* Pods_iOSSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1E5CA802A48AC755231C28 /* Pods_iOSSample.framework */; };
+		7D912414B6782EA0EA3D0E46 /* Pods_iOSSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB634C01E1E75CB50D8C089 /* Pods_iOSSample.framework */; };
 		E983CA432DC061DA008E7BCA /* BidmadSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E983CA422DC061DA008E7BCA /* BidmadSDK.xcframework */; };
 		E983CA442DC061DA008E7BCA /* BidmadSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E983CA422DC061DA008E7BCA /* BidmadSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E983CA472DC061E0008E7BCA /* LuckyVerse.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E983CA462DC061E0008E7BCA /* LuckyVerse.xcframework */; };
@@ -33,9 +33,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		34063214C7E1B7446116246E /* Pods-iOSSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSample.debug.xcconfig"; path = "Target Support Files/Pods-iOSSample/Pods-iOSSample.debug.xcconfig"; sourceTree = "<group>"; };
-		781BEAD939FD1BE7FD9A8335 /* Pods-iOSSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSample.release.xcconfig"; path = "Target Support Files/Pods-iOSSample/Pods-iOSSample.release.xcconfig"; sourceTree = "<group>"; };
-		7D1E5CA802A48AC755231C28 /* Pods_iOSSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0082B38E7BE72C038C0D32F4 /* Pods-iOSSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSample.release.xcconfig"; path = "Target Support Files/Pods-iOSSample/Pods-iOSSample.release.xcconfig"; sourceTree = "<group>"; };
+		1CB634C01E1E75CB50D8C089 /* Pods_iOSSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCB69E685A8D6EE7F378B76 /* Pods-iOSSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSample.debug.xcconfig"; path = "Target Support Files/Pods-iOSSample/Pods-iOSSample.debug.xcconfig"; sourceTree = "<group>"; };
 		E983CA0A2DC0614D008E7BCA /* iOSSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E983CA422DC061DA008E7BCA /* BidmadSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BidmadSDK.xcframework; path = Pods/BidmadSDK/BidmadSDK.xcframework; sourceTree = "<group>"; };
 		E983CA462DC061E0008E7BCA /* LuckyVerse.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LuckyVerse.xcframework; path = Pods/LuckyBiteiOS/LuckyVerse.xcframework; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				E983CA432DC061DA008E7BCA /* BidmadSDK.xcframework in Frameworks */,
 				E983CA472DC061E0008E7BCA /* LuckyVerse.xcframework in Frameworks */,
 				E983CA4A2DC061E5008E7BCA /* OpenBiddingHelper.xcframework in Frameworks */,
-				B45EAD38BC3321E0D886C9EC /* Pods_iOSSample.framework in Frameworks */,
+				7D912414B6782EA0EA3D0E46 /* Pods_iOSSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 				E983CA492DC061E5008E7BCA /* OpenBiddingHelper.xcframework */,
 				E983CA462DC061E0008E7BCA /* LuckyVerse.xcframework */,
 				E983CA422DC061DA008E7BCA /* BidmadSDK.xcframework */,
-				7D1E5CA802A48AC755231C28 /* Pods_iOSSample.framework */,
+				1CB634C01E1E75CB50D8C089 /* Pods_iOSSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,8 +92,8 @@
 		D0813099BA0094E883C2CA23 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34063214C7E1B7446116246E /* Pods-iOSSample.debug.xcconfig */,
-				781BEAD939FD1BE7FD9A8335 /* Pods-iOSSample.release.xcconfig */,
+				9FCB69E685A8D6EE7F378B76 /* Pods-iOSSample.debug.xcconfig */,
+				0082B38E7BE72C038C0D32F4 /* Pods-iOSSample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E983CA1D2DC0614F008E7BCA /* Build configuration list for PBXNativeTarget "iOSSample" */;
 			buildPhases = (
-				BA74D5C07C2A2F8FB5AE61F0 /* [CP] Check Pods Manifest.lock */,
+				E237602B11C42024CB1AFA6D /* [CP] Check Pods Manifest.lock */,
 				E983CA062DC0614D008E7BCA /* Sources */,
 				E983CA072DC0614D008E7BCA /* Frameworks */,
 				E983CA082DC0614D008E7BCA /* Resources */,
@@ -186,7 +186,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BA74D5C07C2A2F8FB5AE61F0 /* [CP] Check Pods Manifest.lock */ = {
+		E237602B11C42024CB1AFA6D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,7 +223,7 @@
 /* Begin XCBuildConfiguration section */
 		E983CA1E2DC0614F008E7BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34063214C7E1B7446116246E /* Pods-iOSSample.debug.xcconfig */;
+			baseConfigurationReference = 9FCB69E685A8D6EE7F378B76 /* Pods-iOSSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -254,7 +254,7 @@
 		};
 		E983CA1F2DC0614F008E7BCA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781BEAD939FD1BE7FD9A8335 /* Pods-iOSSample.release.xcconfig */;
+			baseConfigurationReference = 0082B38E7BE72C038C0D32F4 /* Pods-iOSSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
