@@ -10,6 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol BidmadRewardSC <NSObject>
+
++ (BOOL)isSupported;
+
+@end
+
+@interface BidmadRewardAdapterSupportChecker : NSObject <BidmadRewardSC>
+@end
+
 @class BidmadRewardAdapter;
 
 @protocol BidmadRewardAdapterDelegate <NSObject>
@@ -23,6 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+NS_SWIFT_SENDABLE
 @interface BidmadRewardAdapter : NSObject
 
 @property (nonatomic, strong) BidmadAdUnit *adUnit;
