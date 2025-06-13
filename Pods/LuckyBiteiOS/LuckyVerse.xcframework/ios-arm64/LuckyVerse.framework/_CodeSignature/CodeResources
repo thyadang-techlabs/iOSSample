@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/BidmadSDK.framework/BidmadSDK</key>
 		<data>
-		cdnSj5wspPU1vBrNulTpRPGtnQM=
+		BYGqvqpB3VZemii9pGjN+vcE95Y=
 		</data>
 		<key>Frameworks/BidmadSDK.framework/Info.plist</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/OpenBiddingHelper.framework/OpenBiddingHelper</key>
 		<data>
-		9CEOoaWUhxbaEUTAdvgY/CzAXn0=
+		I1dxNteAWKdlM7Tmq9Wbyn6V2ec=
 		</data>
 		<key>Frameworks/OpenBiddingHelper.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/UserMessagingPlatform.framework/UserMessagingPlatform</key>
 		<data>
-		g1JKymrS8cKeXBLoE2gq/rmxM4o=
+		zCuNhR39/hs9oeyuFDluRv8N/n4=
 		</data>
 		<key>Frameworks/UserMessagingPlatform.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/LuckyVerse-Swift.h</key>
 		<data>
-		rxDhJOUPviD1rKAnw5n538DmXFc=
+		3FflVhbQnsClyusUosY6kOwZm/Y=
 		</data>
 		<key>Headers/LuckyVerse.h</key>
 		<data>
@@ -46,27 +46,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vYWcLDihja04t0S6xSbnBBvVZJo=
+		wOSeseqCfyZvBKi8JLE0QWgHvmo=
 		</data>
 		<key>Modules/LuckyVerse.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		v5ct2rXJEZwp/P9TYphf4UI2Ekw=
+		bQ2I2zc6EIDj8vPbdlmhEcgEgRM=
 		</data>
 		<key>Modules/LuckyVerse.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		8Mtq4eqxv9EL+ncpG1iRqnm2i7E=
+		9iy6iz5WVH1PCtgnr7QyYBJqszE=
 		</data>
 		<key>Modules/LuckyVerse.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		poxXe1UxFTK5q4/02JAlzsBuZho=
+		Ec83UtxwbXvoxwMPNmo1yETn5HM=
 		</data>
 		<key>Modules/LuckyVerse.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		8Mtq4eqxv9EL+ncpG1iRqnm2i7E=
+		9iy6iz5WVH1PCtgnr7QyYBJqszE=
 		</data>
 		<key>Modules/LuckyVerse.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		DewCpLcuoLavHZASS988yMC30A0=
+		NfF1WO2X6b4nz9sCV0WhukD511E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JHygq6avNk/mV71GOYjARk9qEPuYSOI1F3vVb1iL5+M=
+			QkZHiL0fqw1eCZ3uvEcWWwLNu1R34EuuGRDgUFBSba0=
 			</data>
 		</dict>
 		<key>Frameworks/BidmadSDK.framework/Info.plist</key>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9RQlwf+752euXZbDdIahsZ8vnaX1aUKenUk2twZgC1I=
+			lSxTk781czG6fVPpVCB/+QOQAfpKSO1jRVgfWnHy9v8=
 			</data>
 		</dict>
 		<key>Frameworks/OpenBiddingHelper.framework/_CodeSignature/CodeResources</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cs8q1nCXFiCscpz/GjcUB6xYF7imFrTmCz2zVMcH3/U=
+			SIhHD5hFoHD/n+OQ2Pik5ppkhxt3Txwg7gC/r4hWGfY=
 			</data>
 		</dict>
 		<key>Frameworks/UserMessagingPlatform.framework/_CodeSignature/CodeResources</key>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xZwZnFoVU5qsVL66suOWsYiVJhBu0cWQ7WuQjBGJj/A=
+			R1OAwVfrnB9ZDkUumcEynzBAGty8wAGk6QJJz2gu8Fc=
 			</data>
 		</dict>
 		<key>Headers/LuckyVerse.h</key>
@@ -149,35 +149,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bB+CL90YeihZ6ZanrAE3kSOjqzZVlGClJVtszl3bQes=
+			SJQIeuizGD1d9Mug+OqZL7UN6XzFLBbGveRWgQGJQQQ=
 			</data>
 		</dict>
 		<key>Modules/LuckyVerse.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5VfC4UHML1KttLgK0tMN74qOnNjvfp8siO4TFa5BFMM=
+			2Jvi+Go/KbfmEqV67t/hoRwW2GhSSHrY3YJyzFRlykc=
 			</data>
 		</dict>
 		<key>Modules/LuckyVerse.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9EwbLEj6JRh3L6leNPKhxrSMkbrXnaWQ15dWmF/9QtM=
+			nz5tvfjESkiQUuxwuT/RI6S5Xr1YwB2ooANcfSEVGp8=
 			</data>
 		</dict>
 		<key>Modules/LuckyVerse.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5VfC4UHML1KttLgK0tMN74qOnNjvfp8siO4TFa5BFMM=
+			2Jvi+Go/KbfmEqV67t/hoRwW2GhSSHrY3YJyzFRlykc=
 			</data>
 		</dict>
 		<key>Modules/LuckyVerse.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AJ/9EoJWsloNVnTshyl+lPeBYR+CZW1MuSr0IU3Tnd8=
+			yx51oht+/PJbJWqFF5Bgihjo2ah28iafkuvtDbOqATs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
