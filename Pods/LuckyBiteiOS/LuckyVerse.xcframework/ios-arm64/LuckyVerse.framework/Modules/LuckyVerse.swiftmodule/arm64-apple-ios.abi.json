@@ -6,6 +6,1007 @@
     "children": [
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenBiddingHelper",
+        "printedName": "OpenBiddingHelper",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BannerAdView",
+        "printedName": "BannerAdView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "zoneId",
+            "printedName": "zoneId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LuckyVerse12BannerAdViewV6zoneIdSSvp",
+            "mangledName": "$s10LuckyVerse12BannerAdViewV6zoneIdSSvp",
+            "moduleName": "LuckyVerse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LuckyVerse12BannerAdViewV6zoneIdSSvg",
+                "mangledName": "$s10LuckyVerse12BannerAdViewV6zoneIdSSvg",
+                "moduleName": "LuckyVerse",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(zoneId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BannerAdView",
+                "printedName": "LuckyVerse.BannerAdView",
+                "usr": "s:10LuckyVerse12BannerAdViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10LuckyVerse12BannerAdViewV6zoneIdACSS_tcfc",
+            "mangledName": "$s10LuckyVerse12BannerAdViewV6zoneIdACSS_tcfc",
+            "moduleName": "LuckyVerse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<LuckyVerse.BannerAdView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdView",
+                    "printedName": "LuckyVerse.BannerAdView",
+                    "usr": "s:10LuckyVerse12BannerAdViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LuckyVerse12BannerAdViewV10makeUIView7contextSo0G0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "mangledName": "$s10LuckyVerse12BannerAdViewV10makeUIView7contextSo0G0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "moduleName": "LuckyVerse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "LuckyVerse.BannerAdView.Coordinator",
+                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LuckyVerse12BannerAdViewV15makeCoordinatorAC0G0CyF",
+            "mangledName": "$s10LuckyVerse12BannerAdViewV15makeCoordinatorAC0G0CyF",
+            "moduleName": "LuckyVerse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<LuckyVerse.BannerAdView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdView",
+                    "printedName": "LuckyVerse.BannerAdView",
+                    "usr": "s:10LuckyVerse12BannerAdViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LuckyVerse12BannerAdViewV12updateUIView_7contextySo0G0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "mangledName": "$s10LuckyVerse12BannerAdViewV12updateUIView_7contextySo0G0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "moduleName": "LuckyVerse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "ad",
+                "printedName": "ad",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadBannerAd",
+                    "printedName": "OpenBiddingHelper.BidmadBannerAd",
+                    "usr": "c:objc(cs)BidmadBannerAd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC2adSo06BidmadcD0Cvp",
+                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC2adSo06BidmadcD0Cvp",
+                "moduleName": "LuckyVerse",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadBannerAd",
+                        "printedName": "OpenBiddingHelper.BidmadBannerAd",
+                        "usr": "c:objc(cs)BidmadBannerAd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC2adSo06BidmadcD0Cvg",
+                    "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC2adSo06BidmadcD0Cvg",
+                    "moduleName": "LuckyVerse",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "view",
+                "printedName": "view",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC4viewSo6UIViewCvp",
+                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC4viewSo6UIViewCvp",
+                "moduleName": "LuckyVerse",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC4viewSo6UIViewCvg",
+                    "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC4viewSo6UIViewCvg",
+                    "moduleName": "LuckyVerse",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cancellable",
+                "printedName": "cancellable",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Combine.AnyCancellable?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCancellable",
+                        "printedName": "Combine.AnyCancellable",
+                        "usr": "s:7Combine14AnyCancellableC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvp",
+                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvp",
+                "moduleName": "LuckyVerse",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Combine.AnyCancellable?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyCancellable",
+                            "printedName": "Combine.AnyCancellable",
+                            "usr": "s:7Combine14AnyCancellableC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvg",
+                    "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvg",
+                    "moduleName": "LuckyVerse",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Combine.AnyCancellable?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyCancellable",
+                            "printedName": "Combine.AnyCancellable",
+                            "usr": "s:7Combine14AnyCancellableC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvs",
+                    "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvs",
+                    "moduleName": "LuckyVerse",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvM",
+                    "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvM",
+                    "moduleName": "LuckyVerse",
+                    "implicit": true,
+                    "intro_iOS": "13.0",
+                    "declAttributes": [
+                      "Available"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "LuckyVerse.BannerAdView.Coordinator",
+                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorCyAESScfc",
+                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorCyAESScfc",
+                "moduleName": "LuckyVerse",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "loadAd",
+                "printedName": "loadAd()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC04loadD0yyF",
+                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC04loadD0yyF",
+                "moduleName": "LuckyVerse",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "onLoadAd",
+                "printedName": "onLoadAd(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpenBiddingBanner",
+                    "printedName": "OpenBiddingHelper.OpenBiddingBanner",
+                    "usr": "c:objc(cs)OpenBiddingBanner"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC06onLoadD0yySo011OpenBiddingC0CF",
+                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC06onLoadD0yySo011OpenBiddingC0CF",
+                "moduleName": "LuckyVerse",
+                "objc_name": "onLoadAd:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "onLoadFailAd",
+                "printedName": "onLoadFailAd(_:error:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpenBiddingBanner",
+                    "printedName": "OpenBiddingHelper.OpenBiddingBanner",
+                    "usr": "c:objc(cs)OpenBiddingBanner"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC010onLoadFailD0_5errorySo011OpenBiddingC0C_s5Error_ptF",
+                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC010onLoadFailD0_5errorySo011OpenBiddingC0C_s5Error_ptF",
+                "moduleName": "LuckyVerse",
+                "objc_name": "onLoadFailAd:error:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "LuckyVerse.BannerAdView.Coordinator",
+                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorCAEycfc",
+                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorCAEycfc",
+                "moduleName": "LuckyVerse",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC",
+            "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC",
+            "moduleName": "LuckyVerse",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10LuckyVerse12BannerAdViewV",
+        "mangledName": "$s10LuckyVerse12BannerAdViewV",
+        "moduleName": "LuckyVerse",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "LuckyVerse.BannerAdView.Coordinator",
+                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenBiddingHelper",
+        "printedName": "OpenBiddingHelper",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LuckyVerseFloatingButton",
+        "printedName": "LuckyVerseFloatingButton",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LuckyVerseFloatingButton",
+                "printedName": "LuckyVerse.LuckyVerseFloatingButton",
+                "usr": "s:10LuckyVerse0aB14FloatingButtonV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10LuckyVerse0aB14FloatingButtonVACycfc",
+            "mangledName": "$s10LuckyVerse0aB14FloatingButtonVACycfc",
+            "moduleName": "LuckyVerse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIViewController",
+            "printedName": "makeUIViewController(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<LuckyVerse.LuckyVerseFloatingButton>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LuckyVerseFloatingButton",
+                    "printedName": "LuckyVerse.LuckyVerseFloatingButton",
+                    "usr": "s:10LuckyVerse0aB14FloatingButtonV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LuckyVerse0aB14FloatingButtonV20makeUIViewController7contextSo0fG0C7SwiftUI0fG20RepresentableContextVyACG_tF",
+            "mangledName": "$s10LuckyVerse0aB14FloatingButtonV20makeUIViewController7contextSo0fG0C7SwiftUI0fG20RepresentableContextVyACG_tF",
+            "moduleName": "LuckyVerse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIViewController",
+            "printedName": "updateUIViewController(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<LuckyVerse.LuckyVerseFloatingButton>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LuckyVerseFloatingButton",
+                    "printedName": "LuckyVerse.LuckyVerseFloatingButton",
+                    "usr": "s:10LuckyVerse0aB14FloatingButtonV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LuckyVerse0aB14FloatingButtonV22updateUIViewController_7contextySo0fG0C_7SwiftUI0fG20RepresentableContextVyACGtF",
+            "mangledName": "$s10LuckyVerse0aB14FloatingButtonV22updateUIViewController_7contextySo0fG0C_7SwiftUI0fG20RepresentableContextVyACGtF",
+            "moduleName": "LuckyVerse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismantleUIViewController",
+            "printedName": "dismantleUIViewController(_:coordinator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LuckyVerse0aB14FloatingButtonV25dismantleUIViewController_11coordinatorySo0fG0C_yttFZ",
+            "mangledName": "$s10LuckyVerse0aB14FloatingButtonV25dismantleUIViewController_11coordinatorySo0fG0C_yttFZ",
+            "moduleName": "LuckyVerse",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10LuckyVerse0aB14FloatingButtonV",
+        "mangledName": "$s10LuckyVerse0aB14FloatingButtonV",
+        "moduleName": "LuckyVerse",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewControllerRepresentable",
+            "printedName": "UIViewControllerRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewControllerType",
+                "printedName": "UIViewControllerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+            "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "Import",
         "name": "OpenBiddingHelper",
         "printedName": "OpenBiddingHelper",
         "declKind": "Import",
@@ -34,8 +1035,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "InterstitialAd",
-        "printedName": "InterstitialAd",
+        "name": "RewardAd",
+        "printedName": "RewardAd",
         "children": [
           {
             "kind": "Var",
@@ -50,8 +1051,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10LuckyVerse14InterstitialAdC8isLoadedSbvp",
-            "mangledName": "$s10LuckyVerse14InterstitialAdC8isLoadedSbvp",
+            "usr": "s:10LuckyVerse8RewardAdC8isLoadedSbvp",
+            "mangledName": "$s10LuckyVerse8RewardAdC8isLoadedSbvp",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "HasInitialValue",
@@ -72,8 +1073,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC8isLoadedSbvg",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC8isLoadedSbvg",
+                "usr": "s:10LuckyVerse8RewardAdC8isLoadedSbvg",
+                "mangledName": "$s10LuckyVerse8RewardAdC8isLoadedSbvg",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "get"
               },
@@ -95,8 +1096,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC8isLoadedSbvs",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC8isLoadedSbvs",
+                "usr": "s:10LuckyVerse8RewardAdC8isLoadedSbvs",
+                "mangledName": "$s10LuckyVerse8RewardAdC8isLoadedSbvs",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "set"
               },
@@ -112,8 +1113,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC8isLoadedSbvM",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC8isLoadedSbvM",
+                "usr": "s:10LuckyVerse8RewardAdC8isLoadedSbvM",
+                "mangledName": "$s10LuckyVerse8RewardAdC8isLoadedSbvM",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "_modify"
               }
@@ -140,8 +1141,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvp",
-            "mangledName": "$s10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvp",
+            "usr": "s:10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvp",
+            "mangledName": "$s10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvp",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "HasInitialValue",
@@ -170,8 +1171,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvg",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvg",
+                "usr": "s:10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvg",
+                "mangledName": "$s10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvg",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "get"
               },
@@ -201,8 +1202,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvs",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvs",
+                "usr": "s:10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvs",
+                "mangledName": "$s10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvs",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "set"
               },
@@ -218,8 +1219,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvM",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvM",
+                "usr": "s:10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvM",
+                "mangledName": "$s10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvM",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "_modify"
               }
@@ -238,8 +1239,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10LuckyVerse14InterstitialAdC10isRewardedSbvp",
-            "mangledName": "$s10LuckyVerse14InterstitialAdC10isRewardedSbvp",
+            "usr": "s:10LuckyVerse8RewardAdC10isRewardedSbvp",
+            "mangledName": "$s10LuckyVerse8RewardAdC10isRewardedSbvp",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "HasInitialValue",
@@ -260,8 +1261,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC10isRewardedSbvg",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC10isRewardedSbvg",
+                "usr": "s:10LuckyVerse8RewardAdC10isRewardedSbvg",
+                "mangledName": "$s10LuckyVerse8RewardAdC10isRewardedSbvg",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "get"
               },
@@ -283,8 +1284,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC10isRewardedSbvs",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC10isRewardedSbvs",
+                "usr": "s:10LuckyVerse8RewardAdC10isRewardedSbvs",
+                "mangledName": "$s10LuckyVerse8RewardAdC10isRewardedSbvs",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "set"
               },
@@ -300,8 +1301,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC10isRewardedSbvM",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC10isRewardedSbvM",
+                "usr": "s:10LuckyVerse8RewardAdC10isRewardedSbvM",
+                "mangledName": "$s10LuckyVerse8RewardAdC10isRewardedSbvM",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "_modify"
               }
@@ -315,12 +1316,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(() -> ())?",
+                "printedName": "((Swift.Bool) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "() -> ()",
+                    "printedName": "(Swift.Bool) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -329,8 +1330,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
                       }
                     ]
                   }
@@ -339,8 +1341,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvp",
-            "mangledName": "$s10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvp",
+            "usr": "s:10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvp",
+            "mangledName": "$s10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvp",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "HasInitialValue",
@@ -356,12 +1358,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(() -> ())?",
+                    "printedName": "((Swift.Bool) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "() -> ()",
+                        "printedName": "(Swift.Bool) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -370,8 +1372,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
                           }
                         ]
                       }
@@ -380,8 +1383,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvg",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvg",
+                "usr": "s:10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvg",
+                "mangledName": "$s10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvg",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "get"
               },
@@ -398,12 +1401,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(() -> ())?",
+                    "printedName": "((Swift.Bool) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "() -> ()",
+                        "printedName": "(Swift.Bool) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -412,8 +1415,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
                           }
                         ]
                       }
@@ -422,8 +1426,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvs",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvs",
+                "usr": "s:10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvs",
+                "mangledName": "$s10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvs",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "set"
               },
@@ -439,8 +1443,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvM",
-                "mangledName": "$s10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvM",
+                "usr": "s:10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvM",
+                "mangledName": "$s10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvM",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "_modify"
               }
@@ -453,9 +1457,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "InterstitialAd",
-                "printedName": "LuckyVerse.InterstitialAd",
-                "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd"
+                "name": "RewardAd",
+                "printedName": "LuckyVerse.RewardAd",
+                "usr": "c:@M@LuckyVerse@objc(cs)RewardAd"
               },
               {
                 "kind": "TypeNominal",
@@ -465,8 +1469,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10LuckyVerse14InterstitialAdCyACSScfc",
-            "mangledName": "$s10LuckyVerse14InterstitialAdCyACSScfc",
+            "usr": "s:10LuckyVerse8RewardAdCyACSScfc",
+            "mangledName": "$s10LuckyVerse8RewardAdCyACSScfc",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "AccessControl"
@@ -486,12 +1490,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(() -> ())?",
+                "printedName": "((Swift.Bool) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "() -> ()",
+                    "printedName": "(Swift.Bool) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -500,8 +1504,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
                       }
                     ]
                   }
@@ -511,8 +1516,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10LuckyVerse14InterstitialAdC4showyyyycSgF",
-            "mangledName": "$s10LuckyVerse14InterstitialAdC4showyyyycSgF",
+            "usr": "s:10LuckyVerse8RewardAdC4showyyySbcSgF",
+            "mangledName": "$s10LuckyVerse8RewardAdC4showyyySbcSgF",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "AccessControl",
@@ -532,14 +1537,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "OpenBiddingInterstitial",
-                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
-                "usr": "c:objc(cs)OpenBiddingInterstitial"
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd(im)onLoadAd:",
-            "mangledName": "$s10LuckyVerse14InterstitialAdC06onLoadD0yySo011OpenBiddingC0CF",
+            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)onLoadAd:",
+            "mangledName": "$s10LuckyVerse8RewardAdC06onLoadD0yySo011OpenBiddingC5VideoCF",
             "moduleName": "LuckyVerse",
             "objc_name": "onLoadAd:",
             "declAttributes": [
@@ -560,9 +1565,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "OpenBiddingInterstitial",
-                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
-                "usr": "c:objc(cs)OpenBiddingInterstitial"
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
               },
               {
                 "kind": "TypeNominal",
@@ -572,10 +1577,66 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd(im)onLoadFailAd:error:",
-            "mangledName": "$s10LuckyVerse14InterstitialAdC010onLoadFailD0_5errorySo011OpenBiddingC0C_s5Error_ptF",
+            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)onLoadFailAd:error:",
+            "mangledName": "$s10LuckyVerse8RewardAdC010onLoadFailD0_5errorySo011OpenBiddingC5VideoC_s5Error_ptF",
             "moduleName": "LuckyVerse",
             "objc_name": "onLoadFailAd:error:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSkipAd",
+            "printedName": "onSkipAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)onSkipAd:",
+            "mangledName": "$s10LuckyVerse8RewardAdC06onSkipD0yySo011OpenBiddingC5VideoCF",
+            "moduleName": "LuckyVerse",
+            "objc_name": "onSkipAd:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCompleteAd",
+            "printedName": "onCompleteAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)onCompleteAd:",
+            "mangledName": "$s10LuckyVerse8RewardAdC010onCompleteD0yySo011OpenBiddingC5VideoCF",
+            "moduleName": "LuckyVerse",
+            "objc_name": "onCompleteAd:",
             "declAttributes": [
               "ObjC",
               "AccessControl"
@@ -594,14 +1655,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "OpenBiddingInterstitial",
-                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
-                "usr": "c:objc(cs)OpenBiddingInterstitial"
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd(im)onCloseAd:",
-            "mangledName": "$s10LuckyVerse14InterstitialAdC07onCloseD0yySo011OpenBiddingC0CF",
+            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)onCloseAd:",
+            "mangledName": "$s10LuckyVerse8RewardAdC07onCloseD0yySo011OpenBiddingC5VideoCF",
             "moduleName": "LuckyVerse",
             "objc_name": "onCloseAd:",
             "declAttributes": [
@@ -617,14 +1678,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "InterstitialAd",
-                "printedName": "LuckyVerse.InterstitialAd",
-                "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd"
+                "name": "RewardAd",
+                "printedName": "LuckyVerse.RewardAd",
+                "usr": "c:@M@LuckyVerse@objc(cs)RewardAd"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd(im)init",
-            "mangledName": "$s10LuckyVerse14InterstitialAdCACycfc",
+            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)init",
+            "mangledName": "$s10LuckyVerse8RewardAdCACycfc",
             "moduleName": "LuckyVerse",
             "overriding": true,
             "implicit": true,
@@ -638,8 +1699,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd",
-        "mangledName": "$s10LuckyVerse14InterstitialAdC",
+        "usr": "c:@M@LuckyVerse@objc(cs)RewardAd",
+        "mangledName": "$s10LuckyVerse8RewardAdC",
         "moduleName": "LuckyVerse",
         "intro_iOS": "17.0",
         "declAttributes": [
@@ -1714,34 +2775,6 @@
         "moduleName": "LuckyVerse"
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "Import",
-        "name": "SafariServices",
-        "printedName": "SafariServices",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "Import",
-        "name": "OpenBiddingHelper",
-        "printedName": "OpenBiddingHelper",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
         "kind": "TypeDecl",
         "name": "FloatingButtonManager",
         "printedName": "FloatingButtonManager",
@@ -1953,1024 +2986,6 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "Import",
-        "name": "OpenBiddingHelper",
-        "printedName": "OpenBiddingHelper",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BannerAdView",
-        "printedName": "BannerAdView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "zoneId",
-            "printedName": "zoneId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10LuckyVerse12BannerAdViewV6zoneIdSSvp",
-            "mangledName": "$s10LuckyVerse12BannerAdViewV6zoneIdSSvp",
-            "moduleName": "LuckyVerse",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10LuckyVerse12BannerAdViewV6zoneIdSSvg",
-                "mangledName": "$s10LuckyVerse12BannerAdViewV6zoneIdSSvg",
-                "moduleName": "LuckyVerse",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(zoneId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BannerAdView",
-                "printedName": "LuckyVerse.BannerAdView",
-                "usr": "s:10LuckyVerse12BannerAdViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10LuckyVerse12BannerAdViewV6zoneIdACSS_tcfc",
-            "mangledName": "$s10LuckyVerse12BannerAdViewV6zoneIdACSS_tcfc",
-            "moduleName": "LuckyVerse",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "makeUIView",
-            "printedName": "makeUIView(context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewRepresentableContext",
-                "printedName": "SwiftUI.UIViewRepresentableContext<LuckyVerse.BannerAdView>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BannerAdView",
-                    "printedName": "LuckyVerse.BannerAdView",
-                    "usr": "s:10LuckyVerse12BannerAdViewV"
-                  }
-                ],
-                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10LuckyVerse12BannerAdViewV10makeUIView7contextSo0G0C7SwiftUI0G20RepresentableContextVyACG_tF",
-            "mangledName": "$s10LuckyVerse12BannerAdViewV10makeUIView7contextSo0G0C7SwiftUI0G20RepresentableContextVyACG_tF",
-            "moduleName": "LuckyVerse",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "makeCoordinator",
-            "printedName": "makeCoordinator()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Coordinator",
-                "printedName": "LuckyVerse.BannerAdView.Coordinator",
-                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10LuckyVerse12BannerAdViewV15makeCoordinatorAC0G0CyF",
-            "mangledName": "$s10LuckyVerse12BannerAdViewV15makeCoordinatorAC0G0CyF",
-            "moduleName": "LuckyVerse",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateUIView",
-            "printedName": "updateUIView(_:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewRepresentableContext",
-                "printedName": "SwiftUI.UIViewRepresentableContext<LuckyVerse.BannerAdView>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BannerAdView",
-                    "printedName": "LuckyVerse.BannerAdView",
-                    "usr": "s:10LuckyVerse12BannerAdViewV"
-                  }
-                ],
-                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10LuckyVerse12BannerAdViewV12updateUIView_7contextySo0G0C_7SwiftUI0G20RepresentableContextVyACGtF",
-            "mangledName": "$s10LuckyVerse12BannerAdViewV12updateUIView_7contextySo0G0C_7SwiftUI0G20RepresentableContextVyACGtF",
-            "moduleName": "LuckyVerse",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Coordinator",
-            "printedName": "Coordinator",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "ad",
-                "printedName": "ad",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BidmadBannerAd",
-                    "printedName": "OpenBiddingHelper.BidmadBannerAd",
-                    "usr": "c:objc(cs)BidmadBannerAd"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC2adSo06BidmadcD0Cvp",
-                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC2adSo06BidmadcD0Cvp",
-                "moduleName": "LuckyVerse",
-                "declAttributes": [
-                  "Final",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BidmadBannerAd",
-                        "printedName": "OpenBiddingHelper.BidmadBannerAd",
-                        "usr": "c:objc(cs)BidmadBannerAd"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC2adSo06BidmadcD0Cvg",
-                    "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC2adSo06BidmadcD0Cvg",
-                    "moduleName": "LuckyVerse",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Final"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "view",
-                "printedName": "view",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIView",
-                    "printedName": "UIKit.UIView",
-                    "usr": "c:objc(cs)UIView"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC4viewSo6UIViewCvp",
-                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC4viewSo6UIViewCvp",
-                "moduleName": "LuckyVerse",
-                "declAttributes": [
-                  "Final",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIView",
-                        "printedName": "UIKit.UIView",
-                        "usr": "c:objc(cs)UIView"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC4viewSo6UIViewCvg",
-                    "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC4viewSo6UIViewCvg",
-                    "moduleName": "LuckyVerse",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Final"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "cancellable",
-                "printedName": "cancellable",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Combine.AnyCancellable?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyCancellable",
-                        "printedName": "Combine.AnyCancellable",
-                        "usr": "s:7Combine14AnyCancellableC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvp",
-                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvp",
-                "moduleName": "LuckyVerse",
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Combine.AnyCancellable?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AnyCancellable",
-                            "printedName": "Combine.AnyCancellable",
-                            "usr": "s:7Combine14AnyCancellableC"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvg",
-                    "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvg",
-                    "moduleName": "LuckyVerse",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Combine.AnyCancellable?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AnyCancellable",
-                            "printedName": "Combine.AnyCancellable",
-                            "usr": "s:7Combine14AnyCancellableC"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvs",
-                    "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvs",
-                    "moduleName": "LuckyVerse",
-                    "implicit": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvM",
-                    "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC11cancellable7Combine14AnyCancellableCSgvM",
-                    "moduleName": "LuckyVerse",
-                    "implicit": true,
-                    "intro_iOS": "13.0",
-                    "declAttributes": [
-                      "Available"
-                    ],
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Coordinator",
-                    "printedName": "LuckyVerse.BannerAdView.Coordinator",
-                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorCyAESScfc",
-                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorCyAESScfc",
-                "moduleName": "LuckyVerse",
-                "declAttributes": [
-                  "AccessControl"
-                ],
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Function",
-                "name": "loadAd",
-                "printedName": "loadAd()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC04loadD0yyF",
-                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC04loadD0yyF",
-                "moduleName": "LuckyVerse",
-                "declAttributes": [
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "onLoadAd",
-                "printedName": "onLoadAd(_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpenBiddingBanner",
-                    "printedName": "OpenBiddingHelper.OpenBiddingBanner",
-                    "usr": "c:objc(cs)OpenBiddingBanner"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC06onLoadD0yySo011OpenBiddingC0CF",
-                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC06onLoadD0yySo011OpenBiddingC0CF",
-                "moduleName": "LuckyVerse",
-                "objc_name": "onLoadAd:",
-                "declAttributes": [
-                  "ObjC",
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "onLoadFailAd",
-                "printedName": "onLoadFailAd(_:error:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpenBiddingBanner",
-                    "printedName": "OpenBiddingHelper.OpenBiddingBanner",
-                    "usr": "c:objc(cs)OpenBiddingBanner"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC010onLoadFailD0_5errorySo011OpenBiddingC0C_s5Error_ptF",
-                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC010onLoadFailD0_5errorySo011OpenBiddingC0C_s5Error_ptF",
-                "moduleName": "LuckyVerse",
-                "objc_name": "onLoadFailAd:error:",
-                "declAttributes": [
-                  "ObjC",
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Coordinator",
-                    "printedName": "LuckyVerse.BannerAdView.Coordinator",
-                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorCAEycfc",
-                "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorCAEycfc",
-                "moduleName": "LuckyVerse",
-                "overriding": true,
-                "implicit": true,
-                "objc_name": "init",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC",
-                  "Override"
-                ],
-                "init_kind": "Designated"
-              }
-            ],
-            "declKind": "Class",
-            "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC",
-            "mangledName": "$s10LuckyVerse12BannerAdViewV11CoordinatorC",
-            "moduleName": "LuckyVerse",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "superclassUsr": "c:objc(cs)NSObject",
-            "superclassNames": [
-              "ObjectiveC.NSObject"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "_KeyValueCodingAndObservingPublishing",
-                "printedName": "_KeyValueCodingAndObservingPublishing",
-                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CustomStringConvertible",
-                "printedName": "CustomStringConvertible",
-                "usr": "s:s23CustomStringConvertibleP",
-                "mangledName": "$ss23CustomStringConvertibleP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:10LuckyVerse12BannerAdViewV",
-        "mangledName": "$s10LuckyVerse12BannerAdViewV",
-        "moduleName": "LuckyVerse",
-        "intro_iOS": "13.0",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "Available"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UIViewRepresentable",
-            "printedName": "UIViewRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "UIViewType",
-                "printedName": "UIViewType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIView",
-                    "printedName": "UIKit.UIView",
-                    "usr": "c:objc(cs)UIView"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Coordinator",
-                "printedName": "Coordinator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Coordinator",
-                    "printedName": "LuckyVerse.BannerAdView.Coordinator",
-                    "usr": "s:10LuckyVerse12BannerAdViewV11CoordinatorC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI19UIViewRepresentableP",
-            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "Import",
-        "name": "OpenBiddingHelper",
-        "printedName": "OpenBiddingHelper",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LuckyVerseFloatingButton",
-        "printedName": "LuckyVerseFloatingButton",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LuckyVerseFloatingButton",
-                "printedName": "LuckyVerse.LuckyVerseFloatingButton",
-                "usr": "s:10LuckyVerse0aB14FloatingButtonV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10LuckyVerse0aB14FloatingButtonVACycfc",
-            "mangledName": "$s10LuckyVerse0aB14FloatingButtonVACycfc",
-            "moduleName": "LuckyVerse",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "makeUIViewController",
-            "printedName": "makeUIViewController(context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewControllerRepresentableContext",
-                "printedName": "SwiftUI.UIViewControllerRepresentableContext<LuckyVerse.LuckyVerseFloatingButton>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LuckyVerseFloatingButton",
-                    "printedName": "LuckyVerse.LuckyVerseFloatingButton",
-                    "usr": "s:10LuckyVerse0aB14FloatingButtonV"
-                  }
-                ],
-                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10LuckyVerse0aB14FloatingButtonV20makeUIViewController7contextSo0fG0C7SwiftUI0fG20RepresentableContextVyACG_tF",
-            "mangledName": "$s10LuckyVerse0aB14FloatingButtonV20makeUIViewController7contextSo0fG0C7SwiftUI0fG20RepresentableContextVyACG_tF",
-            "moduleName": "LuckyVerse",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateUIViewController",
-            "printedName": "updateUIViewController(_:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewControllerRepresentableContext",
-                "printedName": "SwiftUI.UIViewControllerRepresentableContext<LuckyVerse.LuckyVerseFloatingButton>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LuckyVerseFloatingButton",
-                    "printedName": "LuckyVerse.LuckyVerseFloatingButton",
-                    "usr": "s:10LuckyVerse0aB14FloatingButtonV"
-                  }
-                ],
-                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10LuckyVerse0aB14FloatingButtonV22updateUIViewController_7contextySo0fG0C_7SwiftUI0fG20RepresentableContextVyACGtF",
-            "mangledName": "$s10LuckyVerse0aB14FloatingButtonV22updateUIViewController_7contextySo0fG0C_7SwiftUI0fG20RepresentableContextVyACGtF",
-            "moduleName": "LuckyVerse",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dismantleUIViewController",
-            "printedName": "dismantleUIViewController(_:coordinator:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10LuckyVerse0aB14FloatingButtonV25dismantleUIViewController_11coordinatorySo0fG0C_yttFZ",
-            "mangledName": "$s10LuckyVerse0aB14FloatingButtonV25dismantleUIViewController_11coordinatorySo0fG0C_yttFZ",
-            "moduleName": "LuckyVerse",
-            "static": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:10LuckyVerse0aB14FloatingButtonV",
-        "mangledName": "$s10LuckyVerse0aB14FloatingButtonV",
-        "moduleName": "LuckyVerse",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UIViewControllerRepresentable",
-            "printedName": "UIViewControllerRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "UIViewControllerType",
-                "printedName": "UIViewControllerType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Coordinator",
-                "printedName": "Coordinator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
-            "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LuckyVerse",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -5039,8 +5054,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "RewardAd",
-        "printedName": "RewardAd",
+        "name": "InterstitialAd",
+        "printedName": "InterstitialAd",
         "children": [
           {
             "kind": "Var",
@@ -5055,8 +5070,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10LuckyVerse8RewardAdC8isLoadedSbvp",
-            "mangledName": "$s10LuckyVerse8RewardAdC8isLoadedSbvp",
+            "usr": "s:10LuckyVerse14InterstitialAdC8isLoadedSbvp",
+            "mangledName": "$s10LuckyVerse14InterstitialAdC8isLoadedSbvp",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "HasInitialValue",
@@ -5077,8 +5092,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC8isLoadedSbvg",
-                "mangledName": "$s10LuckyVerse8RewardAdC8isLoadedSbvg",
+                "usr": "s:10LuckyVerse14InterstitialAdC8isLoadedSbvg",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC8isLoadedSbvg",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "get"
               },
@@ -5100,8 +5115,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC8isLoadedSbvs",
-                "mangledName": "$s10LuckyVerse8RewardAdC8isLoadedSbvs",
+                "usr": "s:10LuckyVerse14InterstitialAdC8isLoadedSbvs",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC8isLoadedSbvs",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "set"
               },
@@ -5117,8 +5132,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC8isLoadedSbvM",
-                "mangledName": "$s10LuckyVerse8RewardAdC8isLoadedSbvM",
+                "usr": "s:10LuckyVerse14InterstitialAdC8isLoadedSbvM",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC8isLoadedSbvM",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "_modify"
               }
@@ -5145,8 +5160,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvp",
-            "mangledName": "$s10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvp",
+            "usr": "s:10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvp",
+            "mangledName": "$s10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvp",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "HasInitialValue",
@@ -5175,8 +5190,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvg",
-                "mangledName": "$s10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvg",
+                "usr": "s:10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvg",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvg",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "get"
               },
@@ -5206,8 +5221,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvs",
-                "mangledName": "$s10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvs",
+                "usr": "s:10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvs",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvs",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "set"
               },
@@ -5223,8 +5238,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvM",
-                "mangledName": "$s10LuckyVerse8RewardAdC11cancellable7Combine14AnyCancellableCSgvM",
+                "usr": "s:10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvM",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC11cancellable7Combine14AnyCancellableCSgvM",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "_modify"
               }
@@ -5243,8 +5258,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10LuckyVerse8RewardAdC10isRewardedSbvp",
-            "mangledName": "$s10LuckyVerse8RewardAdC10isRewardedSbvp",
+            "usr": "s:10LuckyVerse14InterstitialAdC10isRewardedSbvp",
+            "mangledName": "$s10LuckyVerse14InterstitialAdC10isRewardedSbvp",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "HasInitialValue",
@@ -5265,8 +5280,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC10isRewardedSbvg",
-                "mangledName": "$s10LuckyVerse8RewardAdC10isRewardedSbvg",
+                "usr": "s:10LuckyVerse14InterstitialAdC10isRewardedSbvg",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC10isRewardedSbvg",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "get"
               },
@@ -5288,8 +5303,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC10isRewardedSbvs",
-                "mangledName": "$s10LuckyVerse8RewardAdC10isRewardedSbvs",
+                "usr": "s:10LuckyVerse14InterstitialAdC10isRewardedSbvs",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC10isRewardedSbvs",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "set"
               },
@@ -5305,8 +5320,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC10isRewardedSbvM",
-                "mangledName": "$s10LuckyVerse8RewardAdC10isRewardedSbvM",
+                "usr": "s:10LuckyVerse14InterstitialAdC10isRewardedSbvM",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC10isRewardedSbvM",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "_modify"
               }
@@ -5320,12 +5335,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool) -> ())?",
+                "printedName": "(() -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool) -> ()",
+                    "printedName": "() -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -5334,9 +5349,8 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
+                        "name": "Void",
+                        "printedName": "()"
                       }
                     ]
                   }
@@ -5345,8 +5359,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvp",
-            "mangledName": "$s10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvp",
+            "usr": "s:10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvp",
+            "mangledName": "$s10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvp",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "HasInitialValue",
@@ -5362,12 +5376,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.Bool) -> ())?",
+                    "printedName": "(() -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.Bool) -> ()",
+                        "printedName": "() -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -5376,9 +5390,8 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
+                            "name": "Void",
+                            "printedName": "()"
                           }
                         ]
                       }
@@ -5387,8 +5400,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvg",
-                "mangledName": "$s10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvg",
+                "usr": "s:10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvg",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvg",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "get"
               },
@@ -5405,12 +5418,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((Swift.Bool) -> ())?",
+                    "printedName": "(() -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.Bool) -> ()",
+                        "printedName": "() -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -5419,9 +5432,8 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
+                            "name": "Void",
+                            "printedName": "()"
                           }
                         ]
                       }
@@ -5430,8 +5442,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvs",
-                "mangledName": "$s10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvs",
+                "usr": "s:10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvs",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvs",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "set"
               },
@@ -5447,8 +5459,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvM",
-                "mangledName": "$s10LuckyVerse8RewardAdC16adClosureHandlerySbcSgvM",
+                "usr": "s:10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvM",
+                "mangledName": "$s10LuckyVerse14InterstitialAdC16adClosureHandleryycSgvM",
                 "moduleName": "LuckyVerse",
                 "accessorKind": "_modify"
               }
@@ -5461,9 +5473,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "RewardAd",
-                "printedName": "LuckyVerse.RewardAd",
-                "usr": "c:@M@LuckyVerse@objc(cs)RewardAd"
+                "name": "InterstitialAd",
+                "printedName": "LuckyVerse.InterstitialAd",
+                "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd"
               },
               {
                 "kind": "TypeNominal",
@@ -5473,8 +5485,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10LuckyVerse8RewardAdCyACSScfc",
-            "mangledName": "$s10LuckyVerse8RewardAdCyACSScfc",
+            "usr": "s:10LuckyVerse14InterstitialAdCyACSScfc",
+            "mangledName": "$s10LuckyVerse14InterstitialAdCyACSScfc",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "AccessControl"
@@ -5494,12 +5506,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool) -> ())?",
+                "printedName": "(() -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool) -> ()",
+                    "printedName": "() -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -5508,9 +5520,8 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
+                        "name": "Void",
+                        "printedName": "()"
                       }
                     ]
                   }
@@ -5520,8 +5531,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10LuckyVerse8RewardAdC4showyyySbcSgF",
-            "mangledName": "$s10LuckyVerse8RewardAdC4showyyySbcSgF",
+            "usr": "s:10LuckyVerse14InterstitialAdC4showyyyycSgF",
+            "mangledName": "$s10LuckyVerse14InterstitialAdC4showyyyycSgF",
             "moduleName": "LuckyVerse",
             "declAttributes": [
               "AccessControl",
@@ -5541,14 +5552,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+                "name": "OpenBiddingInterstitial",
+                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
+                "usr": "c:objc(cs)OpenBiddingInterstitial"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)onLoadAd:",
-            "mangledName": "$s10LuckyVerse8RewardAdC06onLoadD0yySo011OpenBiddingC5VideoCF",
+            "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd(im)onLoadAd:",
+            "mangledName": "$s10LuckyVerse14InterstitialAdC06onLoadD0yySo011OpenBiddingC0CF",
             "moduleName": "LuckyVerse",
             "objc_name": "onLoadAd:",
             "declAttributes": [
@@ -5569,9 +5580,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+                "name": "OpenBiddingInterstitial",
+                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
+                "usr": "c:objc(cs)OpenBiddingInterstitial"
               },
               {
                 "kind": "TypeNominal",
@@ -5581,66 +5592,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)onLoadFailAd:error:",
-            "mangledName": "$s10LuckyVerse8RewardAdC010onLoadFailD0_5errorySo011OpenBiddingC5VideoC_s5Error_ptF",
+            "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd(im)onLoadFailAd:error:",
+            "mangledName": "$s10LuckyVerse14InterstitialAdC010onLoadFailD0_5errorySo011OpenBiddingC0C_s5Error_ptF",
             "moduleName": "LuckyVerse",
             "objc_name": "onLoadFailAd:error:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onSkipAd",
-            "printedName": "onSkipAd(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)onSkipAd:",
-            "mangledName": "$s10LuckyVerse8RewardAdC06onSkipD0yySo011OpenBiddingC5VideoCF",
-            "moduleName": "LuckyVerse",
-            "objc_name": "onSkipAd:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onCompleteAd",
-            "printedName": "onCompleteAd(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)onCompleteAd:",
-            "mangledName": "$s10LuckyVerse8RewardAdC010onCompleteD0yySo011OpenBiddingC5VideoCF",
-            "moduleName": "LuckyVerse",
-            "objc_name": "onCompleteAd:",
             "declAttributes": [
               "ObjC",
               "AccessControl"
@@ -5659,14 +5614,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+                "name": "OpenBiddingInterstitial",
+                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
+                "usr": "c:objc(cs)OpenBiddingInterstitial"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)onCloseAd:",
-            "mangledName": "$s10LuckyVerse8RewardAdC07onCloseD0yySo011OpenBiddingC5VideoCF",
+            "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd(im)onCloseAd:",
+            "mangledName": "$s10LuckyVerse14InterstitialAdC07onCloseD0yySo011OpenBiddingC0CF",
             "moduleName": "LuckyVerse",
             "objc_name": "onCloseAd:",
             "declAttributes": [
@@ -5682,14 +5637,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "RewardAd",
-                "printedName": "LuckyVerse.RewardAd",
-                "usr": "c:@M@LuckyVerse@objc(cs)RewardAd"
+                "name": "InterstitialAd",
+                "printedName": "LuckyVerse.InterstitialAd",
+                "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@LuckyVerse@objc(cs)RewardAd(im)init",
-            "mangledName": "$s10LuckyVerse8RewardAdCACycfc",
+            "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd(im)init",
+            "mangledName": "$s10LuckyVerse14InterstitialAdCACycfc",
             "moduleName": "LuckyVerse",
             "overriding": true,
             "implicit": true,
@@ -5703,8 +5658,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@LuckyVerse@objc(cs)RewardAd",
-        "mangledName": "$s10LuckyVerse8RewardAdC",
+        "usr": "c:@M@LuckyVerse@objc(cs)InterstitialAd",
+        "mangledName": "$s10LuckyVerse14InterstitialAdC",
         "moduleName": "LuckyVerse",
         "intro_iOS": "17.0",
         "declAttributes": [
@@ -5791,150 +5746,49 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "UIApplication",
-        "printedName": "UIApplication",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getCurrentViewController",
-            "printedName": "getCurrentViewController(base:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So13UIApplicationC10LuckyVerseE24getCurrentViewController4baseSo06UIViewG0CSgAH_tF",
-            "mangledName": "$sSo13UIApplicationC10LuckyVerseE24getCurrentViewController4baseSo06UIViewG0CSgAH_tF",
-            "moduleName": "LuckyVerse",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIApplication",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIApplication",
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenBiddingHelper",
+        "printedName": "OpenBiddingHelper",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse",
         "declAttributes": [
-          "Preconcurrency",
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIResponder",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
+          "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LuckyVerse"
       },
       {
         "kind": "TypeDecl",
@@ -6372,172 +6226,157 @@
             "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplication",
+        "printedName": "UIApplication",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getCurrentViewController",
+            "printedName": "getCurrentViewController(base:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So13UIApplicationC10LuckyVerseE24getCurrentViewController4baseSo06UIViewG0CSgAH_tF",
+            "mangledName": "$sSo13UIApplicationC10LuckyVerseE24getCurrentViewController4baseSo06UIViewG0CSgAH_tF",
+            "moduleName": "LuckyVerse",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIApplication",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIApplication",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/InterstitialAdSwiftUIImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 339,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/InterstitialAdSwiftUIImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 463,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 986,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1000,
-      "length": 3,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1013,
-      "length": 6,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1308,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1328,
-      "length": 13,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 494,
-      "length": 53,
-      "value": "\"https:\/\/thyadang-techlabs.github.io\/LuckyBiteReact\/\""
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 790,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 851,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 893,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 929,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 964,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1031,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1062,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1243,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1322,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1381,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1446,
-      "length": 17,
-      "value": "\"LuckyBiteBridge\""
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1604,
-      "length": 369,
-      "value": "\"    var originalConsoleLog = console.log;\n    console.log = function() {\n        var message = Array.from(arguments).join(' ');\n        window.webkit.messageHandlers.LuckyBiteBridge.postMessage('console:' + message);\n        originalConsoleLog.apply(console, arguments);\n    };\""
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2050,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2362,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2368,
-      "length": 17,
-      "value": "\"LuckyBiteSDKiOS\""
-    },
     {
       "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/AdManager.swift",
       "kind": "StringLiteral",
@@ -6637,6 +6476,55 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/RewardAdSwiftUIImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 326,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/RewardAdSwiftUIImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 444,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/NetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 986,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/NetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1000,
+      "length": 3,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/NetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/NetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1308,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/NetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1328,
+      "length": 13,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/LuckyVerseSDK.swift",
       "kind": "StringLiteral",
       "offset": 915,
@@ -6669,7 +6557,7 @@
       "kind": "StringLiteral",
       "offset": 1043,
       "length": 8,
-      "value": "\"0.4.14\""
+      "value": "\"0.4.15\""
     },
     {
       "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/LuckyVerseSDK.swift",
@@ -6833,18 +6721,130 @@
       "value": "876679"
     },
     {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/RewardAdSwiftUIImpl.swift",
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/InterstitialAdSwiftUIImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 326,
+      "offset": 339,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/RewardAdSwiftUIImpl.swift",
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/InterstitialAdSwiftUIImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 444,
+      "offset": 463,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 53,
+      "value": "\"https:\/\/thyadang-techlabs.github.io\/LuckyBiteReact\/\""
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 851,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 893,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 929,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 964,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1031,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1243,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1322,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1381,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1446,
+      "length": 17,
+      "value": "\"LuckyBiteBridge\""
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1604,
+      "length": 369,
+      "value": "\"    var originalConsoleLog = console.log;\n    console.log = function() {\n        var message = Array.from(arguments).join(' ');\n        window.webkit.messageHandlers.LuckyBiteBridge.postMessage('console:' + message);\n        originalConsoleLog.apply(console, arguments);\n    };\""
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2050,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2362,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jeonhaedong\/Developer\/LuckyVerseiOS\/LuckyVerse\/Sources\/Cores\/WebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2368,
+      "length": 17,
+      "value": "\"LuckyBiteSDKiOS\""
     }
   ]
 }
