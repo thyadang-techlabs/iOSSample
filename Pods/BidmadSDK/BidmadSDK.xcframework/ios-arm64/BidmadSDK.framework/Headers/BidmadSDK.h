@@ -53,3 +53,5 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import <BidmadSDK/BidmadLoadStatus.h>
 #import <BidmadSDK/BidmadBannerSizeStrategy.h>
 #import <BidmadSDK/BidmadErasableView.h>
+#import <BidmadSDK/BidmadAdValue.h>
+#import <BidmadSDK/BidmadAdValueManager.h>

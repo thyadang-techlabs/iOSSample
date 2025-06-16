@@ -384,6 +384,7 @@ SWIFT_CLASS("_TtC9BidmadSDK10BidmadInfo")
 @property (nonatomic, readonly) BidmadAdType type;
 @property (nonatomic, readonly) CGSize requestedBannerSize;
 @property (nonatomic, readonly) CGSize loadedBannerSize;
+@property (nonatomic, readonly, copy) NSString * _Nonnull zoneId;
 @property (nonatomic, readonly, copy) NSString * _Nonnull descriptiveType;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @property (nonatomic, readonly, copy) NSString * _Nonnull debugDescription;

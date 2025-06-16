@@ -173,6 +173,9 @@ extension BidmadSDK.VastResource : Swift.Equatable {
   @objc final public let type: BidmadSDK.BidmadAdType
   @objc final public let requestedBannerSize: CoreFoundation.CGSize
   @objc final public let loadedBannerSize: CoreFoundation.CGSize
+  @objc final public let zoneId: Swift.String
+  final public let vpc: Swift.Double?
+  final public let vpi: Swift.Double?
   @objc public var descriptiveType: Swift.String {
     @objc get
   }

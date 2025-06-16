@@ -6613,6 +6613,184 @@
           },
           {
             "kind": "Var",
+            "name": "zoneId",
+            "printedName": "zoneId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(py)zoneId",
+            "mangledName": "$s9BidmadSDK0A4InfoC6zoneIdSSvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)zoneId",
+                "mangledName": "$s9BidmadSDK0A4InfoC6zoneIdSSvg",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vpc",
+            "printedName": "vpc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9BidmadSDK0A4InfoC3vpcSdSgvp",
+            "mangledName": "$s9BidmadSDK0A4InfoC3vpcSdSgvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BidmadSDK0A4InfoC3vpcSdSgvg",
+                "mangledName": "$s9BidmadSDK0A4InfoC3vpcSdSgvg",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vpi",
+            "printedName": "vpi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9BidmadSDK0A4InfoC3vpiSdSgvp",
+            "mangledName": "$s9BidmadSDK0A4InfoC3vpiSdSgvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BidmadSDK0A4InfoC3vpiSdSgvg",
+                "mangledName": "$s9BidmadSDK0A4InfoC3vpiSdSgvg",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "descriptiveType",
             "printedName": "descriptiveType",
             "children": [
@@ -35008,2065 +35186,2114 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 6,
       "value": "\"logo\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 252,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 12,
       "value": "\"ad_channel\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 328,
       "length": 13,
       "value": "\"ad_identity\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 368,
       "length": 11,
       "value": "\"body_copy\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 407,
       "length": 11,
       "value": "\"thumbnail\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 10,
       "value": "\"sub_copy\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 16,
       "value": "\"landing_button\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 533,
       "length": 15,
       "value": "\"landing_title\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NativeItemExtension.swift",
       "kind": "StringLiteral",
       "offset": 574,
       "length": 10,
       "value": "\"end_card\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBannerViewCase.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBannerViewCase.swift",
       "kind": "IntegerLiteral",
       "offset": 75,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBannerViewCase.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBannerViewCase.swift",
       "kind": "IntegerLiteral",
       "offset": 107,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBannerViewCase.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBannerViewCase.swift",
       "kind": "IntegerLiteral",
       "offset": 141,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBannerViewCase.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBannerViewCase.swift",
       "kind": "IntegerLiteral",
       "offset": 176,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 228,
       "length": 3,
       "value": "900"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 259,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 307,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 340,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 380,
       "length": 4,
       "value": "1003"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 427,
       "length": 4,
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 478,
       "length": 4,
       "value": "1005"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 537,
       "length": 4,
       "value": "1006"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 588,
       "length": 4,
       "value": "1007"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VMAPErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 637,
       "length": 4,
       "value": "1008"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 20,
       "value": "\"ViewableImpression\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 20,
       "value": "\"JavaScriptResource\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 15,
       "value": "\"FlashResource\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
       "kind": "StringLiteral",
       "offset": 411,
       "length": 24,
       "value": "\"VerificationParameters\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
       "kind": "Array",
       "offset": 715,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVerification.swift",
       "kind": "Array",
       "offset": 766,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 21,
       "value": "\"vmap:TrackingEvents\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 15,
       "value": "\"vmap:Tracking\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 7,
       "value": "\"event\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 456,
       "length": 12,
       "value": "\"breakStart\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 489,
       "length": 10,
       "value": "\"breakEnd\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 517,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 544,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 60,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 77,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 97,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 115,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 134,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 155,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 177,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 226,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADAdPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 244,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastWrapper.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastWrapper.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 14,
       "value": "\"VASTAdTagURI\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 797,
+      "offset": 1018,
       "length": 8,
       "value": "\"banner\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 864,
+      "offset": 1085,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 931,
+      "offset": 1152,
       "length": 8,
       "value": "\"reward\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 992,
+      "offset": 1213,
       "length": 8,
       "value": "\"native\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1054,
+      "offset": 1275,
       "length": 9,
       "value": "\"appopen\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
-      "length": 80,
+      "offset": 1409,
+      "length": 92,
       "value": "\"Network: \""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1231,
+      "offset": 1448,
       "length": 4,
       "value": "\"\nType: \""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
-      "length": 116,
+      "offset": 1485,
+      "length": 108,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1339,
+      "offset": 1556,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1386,
+      "offset": 1603,
       "length": 127,
       "value": "\"Requested Size: \""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1444,
+      "offset": 1661,
       "length": 6,
       "value": "\"\nLoaded Size: \""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1493,
-      "length": 926,
+      "offset": 1710,
+      "length": 1214,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "Dictionary",
-      "offset": 1720,
+      "offset": 1921,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1768,
+      "offset": 1961,
       "length": 15,
       "value": "\"adNetworkName\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1830,
+      "offset": 2023,
       "length": 8,
       "value": "\"adType\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1931,
+      "offset": 2082,
+      "length": 8,
+      "value": "\"zoneId\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2166,
       "length": 24,
       "value": "\"requestedBannerAdWidth\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2044,
+      "offset": 2271,
       "length": 25,
       "value": "\"requestedBannerAdHeight\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2159,
+      "offset": 2378,
       "length": 21,
       "value": "\"loadedBannerAdWidth\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2266,
+      "offset": 2477,
       "length": 22,
       "value": "\"loadedBannerAdHeight\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2615,
+      "length": 5,
+      "value": "\"vpc\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2679,
+      "length": 5,
+      "value": "\"vpc\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 2704,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2764,
+      "length": 5,
+      "value": "\"vpi\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2828,
+      "length": 5,
+      "value": "\"vpi\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "kind": "FloatLiteral",
+      "offset": 2853,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 9,
       "value": "\"AltText\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 23,
       "value": "\"CompanionClickThrough\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 24,
       "value": "\"CompanionClickTracking\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 16,
       "value": "\"TrackingEvents\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 14,
       "value": "\"adparameters\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 494,
       "length": 14,
       "value": "\"HTMLResource\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 16,
       "value": "\"IFrameResource\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 590,
       "length": 16,
       "value": "\"StaticResource\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 662,
       "length": 7,
       "value": "\"width\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 694,
       "length": 8,
       "value": "\"height\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 723,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 12,
       "value": "\"assetWidth\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 798,
       "length": 13,
       "value": "\"assetHeight\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 843,
       "length": 15,
       "value": "\"expandedWidth\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 891,
       "length": 16,
       "value": "\"expandedHeight\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 14,
       "value": "\"apiFramework\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 979,
       "length": 10,
       "value": "\"adSlotId\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 1026,
       "length": 10,
       "value": "\"adSlotID\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "StringLiteral",
       "offset": 1071,
       "length": 9,
       "value": "\"pxratio\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "Array",
       "offset": 1619,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "Array",
       "offset": 1661,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "Array",
       "offset": 1701,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "Array",
       "offset": 1826,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
       "kind": "Array",
       "offset": 1882,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPModel.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPModel.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 11,
       "value": "\"vmap:VMAP\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPModel.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPModel.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
       "kind": "FloatLiteral",
       "offset": 848,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
       "kind": "FloatLiteral",
       "offset": 1251,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 1352,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 1539,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
       "kind": "FloatLiteral",
       "offset": 1624,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 1670,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 1781,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/IconClicks.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/IconClicks.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 18,
       "value": "\"IconClickThrough\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/IconClicks.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/IconClicks.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 19,
       "value": "\"IconClickTracking\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/IconClicks.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/IconClicks.swift",
       "kind": "Array",
       "offset": 379,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/TLLog.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/TLLog.swift",
       "kind": "StringLiteral",
       "offset": 164,
       "length": 5,
       "value": "\"DEV\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/TLLog.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/TLLog.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/TLLog.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/TLLog.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 6,
       "value": "\"TEST\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVideoClicks.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVideoClicks.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVideoClicks.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVideoClicks.swift",
       "kind": "StringLiteral",
       "offset": 296,
       "length": 14,
       "value": "\"ClickThrough\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVideoClicks.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVideoClicks.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 15,
       "value": "\"ClickTracking\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVideoClicks.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastVideoClicks.swift",
       "kind": "StringLiteral",
       "offset": 389,
       "length": 13,
       "value": "\"CustomClick\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 235,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 276,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 325,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 357,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 411,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 464,
       "length": 3,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 513,
       "length": 3,
       "value": "203"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 550,
       "length": 3,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 585,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 617,
       "length": 3,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 652,
       "length": 3,
       "value": "302"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 685,
       "length": 3,
       "value": "303"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 736,
       "length": 3,
       "value": "304"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 770,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 798,
       "length": 3,
       "value": "401"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 832,
       "length": 3,
       "value": "402"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 869,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 911,
       "length": 3,
       "value": "405"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 948,
       "length": 3,
       "value": "408"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 996,
       "length": 3,
       "value": "409"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1045,
       "length": 3,
       "value": "410"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1085,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1126,
       "length": 3,
       "value": "501"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1163,
       "length": 3,
       "value": "502"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1208,
       "length": 3,
       "value": "503"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1248,
       "length": 3,
       "value": "600"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1280,
       "length": 3,
       "value": "601"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1320,
       "length": 3,
       "value": "602"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1366,
       "length": 3,
       "value": "603"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1411,
       "length": 3,
       "value": "604"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1441,
       "length": 3,
       "value": "900"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 1474,
       "length": 3,
       "value": "901"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 15,
       "value": "\"vmap:AdSource\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 17,
       "value": "\"vmap:VASTAdData\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 315,
       "length": 15,
       "value": "\"vmap:AdTagURI\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 19,
       "value": "\"vmap:CustomAdData\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 18,
       "value": "\"allowMultipleAds\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 502,
       "length": 17,
       "value": "\"followRedirects\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 616,
       "length": 6,
       "value": "\"vast\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 640,
       "length": 7,
       "value": "\"vast1\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 7,
       "value": "\"vast2\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 690,
       "length": 7,
       "value": "\"vast3\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 715,
       "length": 7,
       "value": "\"vast4\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
       "kind": "StringLiteral",
       "offset": 742,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BidmadConstants.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BidmadConstants.swift",
       "kind": "StringLiteral",
       "offset": 224,
       "length": 25,
       "value": "\"BidmadAppInfoAppstoreId\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BidmadConstants.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BidmadConstants.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 27,
       "value": "\"BidmadAppInfoCaulyAppCode\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "StringLiteral",
       "offset": 235,
       "length": 10,
       "value": "\"Duration\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 14,
       "value": "\"AdParameters\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "StringLiteral",
       "offset": 338,
       "length": 11,
       "value": "\"MediaFile\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 25,
       "value": "\"InteractiveCreativeFile\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 14,
       "value": "\"ClickThrough\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "StringLiteral",
       "offset": 518,
       "length": 15,
       "value": "\"ClickTracking\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "StringLiteral",
       "offset": 563,
       "length": 13,
       "value": "\"CustomClick\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 16,
       "value": "\"TrackingEvents\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "StringLiteral",
       "offset": 657,
       "length": 10,
       "value": "\"Tracking\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "StringLiteral",
       "offset": 709,
       "length": 6,
       "value": "\"Icon\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "Array",
       "offset": 1386,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastLinearCreative.swift",
       "kind": "Array",
       "offset": 1442,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastMediaFiles.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastMediaFiles.swift",
       "kind": "Array",
       "offset": 195,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastMediaFiles.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastMediaFiles.swift",
       "kind": "Array",
       "offset": 271,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 20,
       "value": "\"BIDMADInterstitial\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADInterstitial.swift",
       "kind": "Array",
       "offset": 328,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastClient.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastClient.swift",
       "kind": "IntegerLiteral",
       "offset": 407,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastClient.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastClient.swift",
       "kind": "IntegerLiteral",
       "offset": 449,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastClient.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastClient.swift",
       "kind": "IntegerLiteral",
       "offset": 478,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 6,
       "value": "\"VAST\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
       "kind": "StringLiteral",
       "offset": 247,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 4,
       "value": "\"Ad\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
       "kind": "StringLiteral",
       "offset": 332,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
       "kind": "Array",
       "offset": 442,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastModel.swift",
       "kind": "Array",
       "offset": 476,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBanner.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBanner.swift",
       "kind": "StringLiteral",
       "offset": 159,
       "length": 14,
       "value": "\"BIDMADBanner\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastImpression.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastImpression.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/Color+Extensions.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1717,
       "length": 10,
       "value": "0xff000000"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/Color+Extensions.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1754,
       "length": 10,
       "value": "0x00ff0000"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/Color+Extensions.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1791,
       "length": 10,
       "value": "0x0000ff00"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/Color+Extensions.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1828,
       "length": 10,
       "value": "0x000000ff"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastExtension.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastExtension.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastExtension.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 6,
       "value": "\"Rate\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BidmadUIComponents\/BidmadTracker.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BidmadUIComponents\/BidmadTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 1184,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
       "kind": "StringLiteral",
       "offset": 274,
       "length": 11,
       "value": "\"NonLinear\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 16,
       "value": "\"StaticResource\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
       "kind": "StringLiteral",
       "offset": 375,
       "length": 24,
       "value": "\"NonLinearClickTracking\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
       "kind": "StringLiteral",
       "offset": 437,
       "length": 16,
       "value": "\"TrackingEvents\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
       "kind": "StringLiteral",
       "offset": 480,
       "length": 10,
       "value": "\"Tracking\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
       "kind": "Array",
       "offset": 636,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastNonLinearAdsCreative.swift",
       "kind": "Array",
       "offset": 683,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NonlinearTrackingCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NonlinearTrackingCreative.swift",
       "kind": "BooleanLiteral",
       "offset": 397,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NonlinearTrackingCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NonlinearTrackingCreative.swift",
       "kind": "BooleanLiteral",
       "offset": 434,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NonlinearTrackingCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NonlinearTrackingCreative.swift",
       "kind": "BooleanLiteral",
       "offset": 466,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NonlinearTrackingCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NonlinearTrackingCreative.swift",
       "kind": "BooleanLiteral",
       "offset": 503,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NonlinearTrackingCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/NonlinearTrackingCreative.swift",
       "kind": "BooleanLiteral",
       "offset": 535,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/BidmadStateManager.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BidmadStateManager.swift",
       "kind": "BooleanLiteral",
       "offset": 378,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/TrackingCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/TrackingCreative.swift",
       "kind": "BooleanLiteral",
       "offset": 482,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/TrackingCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/TrackingCreative.swift",
       "kind": "BooleanLiteral",
       "offset": 514,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/TrackingCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/TrackingCreative.swift",
       "kind": "BooleanLiteral",
       "offset": 551,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastMacros.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastMacros.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 13,
       "value": "\"[ERRORCODE]\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastMacros.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastMacros.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 19,
       "value": "\"[CONTENTPLAYHEAD]\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastMacros.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastMacros.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 16,
       "value": "\"[CACHEBUSTING]\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastMacros.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastMacros.swift",
       "kind": "StringLiteral",
       "offset": 440,
       "length": 12,
       "value": "\"[ASSETURI]\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastMacros.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/constants\/VastMacros.swift",
       "kind": "StringLiteral",
       "offset": 474,
       "length": 13,
       "value": "\"[TIMESTAMP]\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 15,
       "value": "\"UniversalAdId\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 8,
       "value": "\"Linear\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 14,
       "value": "\"NonLinearAds\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 19,
       "value": "\"CreativeExtension\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 14,
       "value": "\"CompanionAds\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCreative.swift",
       "kind": "Array",
       "offset": 1052,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
       "kind": "StringLiteral",
       "offset": 224,
       "length": 14,
       "value": "\"vmap:AdBreak\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 9,
       "value": "\"breakId\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 11,
       "value": "\"breakType\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
       "kind": "StringLiteral",
       "offset": 375,
       "length": 12,
       "value": "\"timeOffset\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 13,
       "value": "\"repeatAfter\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
       "kind": "StringLiteral",
       "offset": 499,
       "length": 8,
       "value": "\"linear\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 11,
       "value": "\"nonlinear\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
       "kind": "StringLiteral",
       "offset": 560,
       "length": 9,
       "value": "\"display\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/VMAP\/VMAPAdBreak.swift",
       "kind": "StringLiteral",
       "offset": 589,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VMAPParser.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VMAPParser.swift",
       "kind": "BooleanLiteral",
       "offset": 385,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VMAPParser.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VMAPParser.swift",
       "kind": "BooleanLiteral",
       "offset": 420,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VMAPParser.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VMAPParser.swift",
       "kind": "StringLiteral",
       "offset": 762,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VMAPParser.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VMAPParser.swift",
       "kind": "Dictionary",
       "offset": 2702,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastXMLParser.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastXMLParser.swift",
       "kind": "BooleanLiteral",
       "offset": 579,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastXMLParser.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastXMLParser.swift",
       "kind": "BooleanLiteral",
       "offset": 614,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastXMLParser.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastXMLParser.swift",
       "kind": "StringLiteral",
       "offset": 2114,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastXMLParser.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastXMLParser.swift",
       "kind": "Dictionary",
       "offset": 3263,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastTrackingEvent.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 747,
       "length": 7,
       "value": "\"event\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastTrackingEvent.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 779,
       "length": 8,
       "value": "\"offset\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastTrackingEvent.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastTrackingEvent.swift",
       "kind": "BooleanLiteral",
       "offset": 959,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 16,
       "value": "\"StaticResource\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 16,
       "value": "\"IFrameResource\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 14,
       "value": "\"HTMLResource\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
       "kind": "StringLiteral",
       "offset": 301,
       "length": 12,
       "value": "\"IconClicks\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 18,
       "value": "\"IconViewTracking\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
       "kind": "Array",
       "offset": 968,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastIcon.swift",
       "kind": "Array",
       "offset": 1064,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 10,
       "value": "\"Viewable\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 13,
       "value": "\"NotViewable\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
       "kind": "StringLiteral",
       "offset": 334,
       "length": 18,
       "value": "\"ViewUndetermined\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
       "kind": "Array",
       "offset": 853,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
       "kind": "Array",
       "offset": 892,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastViewableImpression.swift",
       "kind": "Array",
       "offset": 936,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastParser.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastParser.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 8,
       "value": "\"parser\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastParser.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/parsers\/VastParser.swift",
       "kind": "IntegerLiteral",
       "offset": 1821,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
       "kind": "FloatLiteral",
       "offset": 818,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
       "kind": "FloatLiteral",
       "offset": 1221,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
       "kind": "BooleanLiteral",
       "offset": 1340,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
       "kind": "FloatLiteral",
       "offset": 1469,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
       "kind": "BooleanLiteral",
       "offset": 1499,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
       "kind": "BooleanLiteral",
       "offset": 1587,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/VastTrackerNonLinear.swift",
       "kind": "BooleanLiteral",
       "offset": 2358,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 10,
       "value": "\"required\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 11,
       "value": "\"Companion\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
       "kind": "StringLiteral",
       "offset": 959,
       "length": 5,
       "value": "\"all\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
       "kind": "StringLiteral",
       "offset": 1323,
       "length": 5,
       "value": "\"any\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
       "kind": "StringLiteral",
       "offset": 1616,
       "length": 6,
       "value": "\"none\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastCompanionAds.swift",
       "kind": "Array",
       "offset": 1769,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 9,
       "value": "\"Wrapper\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 8,
       "value": "\"InLine\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 284,
       "length": 10,
       "value": "\"AdSystem\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 9,
       "value": "\"AdTitle\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 359,
       "length": 13,
       "value": "\"Description\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 437,
       "length": 12,
       "value": "\"Impression\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 476,
       "length": 10,
       "value": "\"Category\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 515,
       "length": 12,
       "value": "\"Advertiser\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 553,
       "length": 9,
       "value": "\"Pricing\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 587,
       "length": 8,
       "value": "\"Survey\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 632,
       "length": 20,
       "value": "\"ViewableImpression\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 683,
       "length": 14,
       "value": "\"Verification\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 730,
       "length": 11,
       "value": "\"Creatives\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 768,
       "length": 10,
       "value": "\"Creative\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 812,
       "length": 12,
       "value": "\"Extensions\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 846,
       "length": 11,
       "value": "\"Extension\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 886,
       "length": 12,
       "value": "\"NativeItem\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 944,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 975,
       "length": 10,
       "value": "\"sequence\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 1017,
       "length": 15,
       "value": "\"conditionalAd\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "Array",
       "offset": 1467,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "Array",
       "offset": 1523,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "Array",
       "offset": 1653,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "Array",
       "offset": 1699,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "Array",
       "offset": 1747,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "Array",
       "offset": 1854,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastAd.swift",
       "kind": "Array",
       "offset": 1967,
       "length": 2,
