@@ -15,40 +15,6 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @available(iOS 17.0, *)
-public class RewardAd : ObjectiveC.NSObject, OpenBiddingHelper.BIDMADOpenBiddingRewardVideoDelegate {
-  public var isLoaded: Swift.Bool {
-    get
-    set
-    _modify
-  }
-  public var cancellable: Combine.AnyCancellable? {
-    get
-    set
-    _modify
-  }
-  public var isRewarded: Swift.Bool {
-    get
-    set
-    _modify
-  }
-  public var adClosureHandler: ((Swift.Bool) -> Swift.Void)? {
-    get
-    set
-    _modify
-  }
-  public init(_ zoneId: Swift.String)
-  public func show(_ adClosureHandler: ((Swift.Bool) -> Swift.Void)? = nil)
-  @objc public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
-  @objc public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo, error: any Swift.Error)
-  @objc public func onSkipAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
-  @objc public func onCompleteAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
-  @objc public func onCloseAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
-  @objc deinit
-}
-@available(iOS 17.0, *)
-extension LuckyVerse.RewardAd : Observation.Observable {
-}
 extension Swift.UInt64 {
   public static func nanoSeconds(from seconds: Swift.Int) -> Swift.UInt64
 }
@@ -220,6 +186,40 @@ extension LuckyVerse.InterstitialAd : Observation.Observable {
   final public func request<T>(_ url: Foundation.URL, method: LuckyVerse.HTTPMethod = .get, parameters: [Swift.String : Any]? = nil) async throws -> T where T : Swift.Decodable
   @objc final public func requestJSON(_ url: Foundation.URL, method: LuckyVerse.HTTPMethod = .get, parameters: [Swift.String : Any]? = nil, completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
   @objc deinit
+}
+@objc @available(iOS 17.0, *)
+public class RewardAd : ObjectiveC.NSObject, OpenBiddingHelper.BIDMADOpenBiddingRewardVideoDelegate {
+  public var isLoaded: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  public var cancellable: Combine.AnyCancellable? {
+    get
+    set
+    _modify
+  }
+  public var isRewarded: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  public var adClosureHandler: ((Swift.Bool) -> Swift.Void)? {
+    get
+    set
+    _modify
+  }
+  public init(_ zoneId: Swift.String)
+  public func show(_ adClosureHandler: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
+  @objc public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo, error: any Swift.Error)
+  @objc public func onSkipAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
+  @objc public func onCompleteAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
+  @objc public func onCloseAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
+  @objc deinit
+}
+@available(iOS 17.0, *)
+extension LuckyVerse.RewardAd : Observation.Observable {
 }
 extension LuckyVerse.LuckyVerseFloatingButton : Swift.Sendable {}
 @available(iOS 13.0, *)
