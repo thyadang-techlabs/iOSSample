@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios18.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LuckyVerse
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LuckyVerse
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Combine
 import Foundation
@@ -15,6 +15,43 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @available(iOS 17.0, *)
+public class RewardAd : ObjectiveC.NSObject, OpenBiddingHelper.BIDMADOpenBiddingRewardVideoDelegate {
+  public var isLoaded: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  public var cancellable: Combine.AnyCancellable? {
+    get
+    set
+    _modify
+  }
+  public var isRewarded: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  public var adClosureHandler: ((Swift.Bool) -> Swift.Void)? {
+    get
+    set
+    _modify
+  }
+  public init(_ zoneId: Swift.String)
+  public func show(_ adClosureHandler: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
+  @objc public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo, error: any Swift.Error)
+  @objc public func onSkipAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
+  @objc public func onCompleteAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
+  @objc public func onCloseAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
+  @objc deinit
+}
+@available(iOS 17.0, *)
+extension LuckyVerse.RewardAd : Observation.Observable {
+}
+extension Swift.UInt64 {
+  public static func nanoSeconds(from seconds: Swift.Int) -> Swift.UInt64
+}
 extension UIKit.UIApplication {
   @_Concurrency.MainActor @preconcurrency public func getCurrentViewController(base: UIKit.UIViewController? = UIApplication.shared.connectedScenes
         .compactMap { ($0 as? UIWindowScene)?.keyWindow }
@@ -183,43 +220,6 @@ extension LuckyVerse.InterstitialAd : Observation.Observable {
   final public func request<T>(_ url: Foundation.URL, method: LuckyVerse.HTTPMethod = .get, parameters: [Swift.String : Any]? = nil) async throws -> T where T : Swift.Decodable
   @objc final public func requestJSON(_ url: Foundation.URL, method: LuckyVerse.HTTPMethod = .get, parameters: [Swift.String : Any]? = nil, completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
   @objc deinit
-}
-@objc @available(iOS 17.0, *)
-public class RewardAd : ObjectiveC.NSObject, OpenBiddingHelper.BIDMADOpenBiddingRewardVideoDelegate {
-  public var isLoaded: Swift.Bool {
-    get
-    set
-    _modify
-  }
-  public var cancellable: Combine.AnyCancellable? {
-    get
-    set
-    _modify
-  }
-  public var isRewarded: Swift.Bool {
-    get
-    set
-    _modify
-  }
-  public var adClosureHandler: ((Swift.Bool) -> Swift.Void)? {
-    get
-    set
-    _modify
-  }
-  public init(_ zoneId: Swift.String)
-  public func show(_ adClosureHandler: ((Swift.Bool) -> Swift.Void)? = nil)
-  @objc public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
-  @objc public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo, error: any Swift.Error)
-  @objc public func onSkipAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
-  @objc public func onCompleteAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
-  @objc public func onCloseAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingRewardVideo)
-  @objc deinit
-}
-@available(iOS 17.0, *)
-extension LuckyVerse.RewardAd : Observation.Observable {
-}
-extension Swift.UInt64 {
-  public static func nanoSeconds(from seconds: Swift.Int) -> Swift.UInt64
 }
 @available(iOS 13.0, *)
 extension LuckyVerse.BannerAdView : Swift.Sendable {}
