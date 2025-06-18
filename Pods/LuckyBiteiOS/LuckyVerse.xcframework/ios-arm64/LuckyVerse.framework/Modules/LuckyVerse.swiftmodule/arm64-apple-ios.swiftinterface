@@ -15,6 +15,11 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor @preconcurrency public func getCurrentViewController(base: UIKit.UIViewController? = UIApplication.shared.connectedScenes
+        .compactMap { ($0 as? UIWindowScene)?.keyWindow }
+        .first?.rootViewController) -> UIKit.UIViewController?
+}
 @_Concurrency.MainActor @preconcurrency public struct LuckyVerseFloatingButton : SwiftUI.UIViewControllerRepresentable {
   @_Concurrency.MainActor @preconcurrency public init()
   @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: LuckyVerse.LuckyVerseFloatingButton.Context) -> UIKit.UIViewController
@@ -215,11 +220,6 @@ extension LuckyVerse.RewardAd : Observation.Observable {
 }
 extension Swift.UInt64 {
   public static func nanoSeconds(from seconds: Swift.Int) -> Swift.UInt64
-}
-extension UIKit.UIApplication {
-  @_Concurrency.MainActor @preconcurrency public func getCurrentViewController(base: UIKit.UIViewController? = UIApplication.shared.connectedScenes
-        .compactMap { ($0 as? UIWindowScene)?.keyWindow }
-        .first?.rootViewController) -> UIKit.UIViewController?
 }
 extension LuckyVerse.LuckyVerseFloatingButton : Swift.Sendable {}
 @available(iOS 13.0, *)
