@@ -15,6 +15,97 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @available(iOS 17.0, *)
+public class InterstitialAd : ObjectiveC.NSObject, OpenBiddingHelper.BIDMADOpenBiddingInterstitialDelegate {
+  public var isLoaded: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  public var cancellable: Combine.AnyCancellable? {
+    get
+    set
+    _modify
+  }
+  public var isRewarded: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  public var adClosureHandler: (() -> Swift.Void)? {
+    get
+    set
+    _modify
+  }
+  public init(_ zoneId: Swift.String)
+  public func show(_ adClosureHandler: (() -> Swift.Void)? = nil)
+  @objc public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial)
+  @objc public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, error: any Swift.Error)
+  @objc public func onCloseAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial)
+  @objc deinit
+}
+@available(iOS 17.0, *)
+extension LuckyVerse.InterstitialAd : Observation.Observable {
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class FloatingButtonManager : ObjectiveC.NSObject {
+  @objc public static let shared: LuckyVerse.FloatingButtonManager
+  @objc public func showFloatingButton(on viewController: UIKit.UIViewController)
+  @objc public func hideFloatingButton()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 13.0, *)
+@_Concurrency.MainActor @preconcurrency public struct BannerAdView : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public let zoneId: Swift.String
+  @_Concurrency.MainActor @preconcurrency public init(zoneId: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: LuckyVerse.BannerAdView.Context) -> UIKit.UIView
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> LuckyVerse.BannerAdView.Coordinator
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: UIKit.UIView, context: LuckyVerse.BannerAdView.Context)
+  @objc public class Coordinator : ObjectiveC.NSObject, OpenBiddingHelper.BIDMADOpenBiddingBannerDelegate {
+    final public let ad: OpenBiddingHelper.BidmadBannerAd
+    final public let view: UIKit.UIView
+    public var cancellable: Combine.AnyCancellable?
+    public init(_ zoneId: Swift.String)
+    public func loadAd()
+    @objc public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingBanner)
+    @objc public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingBanner, error: any Swift.Error)
+    @objc deinit
+  }
+  @available(iOS 13.0, *)
+  public typealias Body = Swift.Never
+  @available(iOS 13.0, *)
+  public typealias UIViewType = UIKit.UIView
+}
+@objc public enum HTTPMethod : Swift.Int {
+  case get
+  case post
+  case put
+  case delete
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum NetworkError : Swift.Int, Swift.Error {
+  case invalidResponse
+  case statusCode
+  case decodingError
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class NetworkManager : ObjectiveC.NSObject {
+  @objc public static let shared: LuckyVerse.NetworkManager
+  final public func request<T>(_ url: Foundation.URL, method: LuckyVerse.HTTPMethod = .get, parameters: [Swift.String : Any]? = nil) async throws -> T where T : Swift.Decodable
+  @objc final public func requestJSON(_ url: Foundation.URL, method: LuckyVerse.HTTPMethod = .get, parameters: [Swift.String : Any]? = nil, completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class LuckyVerseSDK : ObjectiveC.NSObject {
   @objc public static let shared: LuckyVerse.LuckyVerseSDK
   @objc public func setFloatingButton(viewController: UIKit.UIViewController, show: Swift.Bool)
@@ -79,35 +170,8 @@ import _SwiftConcurrencyShims
     get
   }
 }
-@objc public enum HTTPMethod : Swift.Int {
-  case get
-  case post
-  case put
-  case delete
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum NetworkError : Swift.Int, Swift.Error {
-  case invalidResponse
-  case statusCode
-  case decodingError
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public static var _nsErrorDomain: Swift.String {
-    get
-  }
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class NetworkManager : ObjectiveC.NSObject {
-  @objc public static let shared: LuckyVerse.NetworkManager
-  final public func request<T>(_ url: Foundation.URL, method: LuckyVerse.HTTPMethod = .get, parameters: [Swift.String : Any]? = nil) async throws -> T where T : Swift.Decodable
-  @objc final public func requestJSON(_ url: Foundation.URL, method: LuckyVerse.HTTPMethod = .get, parameters: [Swift.String : Any]? = nil, completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  @objc deinit
+extension Swift.UInt64 {
+  public static func nanoSeconds(from seconds: Swift.Int) -> Swift.UInt64
 }
 @objc @available(iOS 17.0, *)
 public class RewardAd : ObjectiveC.NSObject, OpenBiddingHelper.BIDMADOpenBiddingRewardVideoDelegate {
@@ -143,74 +207,10 @@ public class RewardAd : ObjectiveC.NSObject, OpenBiddingHelper.BIDMADOpenBidding
 @available(iOS 17.0, *)
 extension LuckyVerse.RewardAd : Observation.Observable {
 }
-@available(iOS 13.0, *)
-@_Concurrency.MainActor @preconcurrency public struct BannerAdView : SwiftUI.UIViewRepresentable {
-  @_Concurrency.MainActor @preconcurrency public let zoneId: Swift.String
-  @_Concurrency.MainActor @preconcurrency public init(zoneId: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: LuckyVerse.BannerAdView.Context) -> UIKit.UIView
-  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> LuckyVerse.BannerAdView.Coordinator
-  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: UIKit.UIView, context: LuckyVerse.BannerAdView.Context)
-  @objc public class Coordinator : ObjectiveC.NSObject, OpenBiddingHelper.BIDMADOpenBiddingBannerDelegate {
-    final public let ad: OpenBiddingHelper.BidmadBannerAd
-    final public let view: UIKit.UIView
-    public var cancellable: Combine.AnyCancellable?
-    public init(_ zoneId: Swift.String)
-    public func loadAd()
-    @objc public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingBanner)
-    @objc public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingBanner, error: any Swift.Error)
-    @objc deinit
-  }
-  @available(iOS 13.0, *)
-  public typealias Body = Swift.Never
-  @available(iOS 13.0, *)
-  public typealias UIViewType = UIKit.UIView
-}
-extension Swift.UInt64 {
-  public static func nanoSeconds(from seconds: Swift.Int) -> Swift.UInt64
-}
 extension UIKit.UIApplication {
   @_Concurrency.MainActor @preconcurrency public func getCurrentViewController(base: UIKit.UIViewController? = UIApplication.shared.connectedScenes
         .compactMap { ($0 as? UIWindowScene)?.keyWindow }
         .first?.rootViewController) -> UIKit.UIViewController?
-}
-@objc @_inheritsConvenienceInitializers @objcMembers public class FloatingButtonManager : ObjectiveC.NSObject {
-  @objc public static let shared: LuckyVerse.FloatingButtonManager
-  @objc public func showFloatingButton(on viewController: UIKit.UIViewController)
-  @objc public func hideFloatingButton()
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc @available(iOS 17.0, *)
-public class InterstitialAd : ObjectiveC.NSObject, OpenBiddingHelper.BIDMADOpenBiddingInterstitialDelegate {
-  public var isLoaded: Swift.Bool {
-    get
-    set
-    _modify
-  }
-  public var cancellable: Combine.AnyCancellable? {
-    get
-    set
-    _modify
-  }
-  public var isRewarded: Swift.Bool {
-    get
-    set
-    _modify
-  }
-  public var adClosureHandler: (() -> Swift.Void)? {
-    get
-    set
-    _modify
-  }
-  public init(_ zoneId: Swift.String)
-  public func show(_ adClosureHandler: (() -> Swift.Void)? = nil)
-  @objc public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial)
-  @objc public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, error: any Swift.Error)
-  @objc public func onCloseAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial)
-  @objc deinit
-}
-@available(iOS 17.0, *)
-extension LuckyVerse.InterstitialAd : Observation.Observable {
 }
 @_Concurrency.MainActor @preconcurrency public struct LuckyVerseFloatingButton : SwiftUI.UIViewControllerRepresentable {
   @_Concurrency.MainActor @preconcurrency public init()
@@ -221,15 +221,15 @@ extension LuckyVerse.InterstitialAd : Observation.Observable {
   public typealias Coordinator = ()
   public typealias UIViewControllerType = UIKit.UIViewController
 }
-extension LuckyVerse.LuckyVerseLocalPushType : Swift.Equatable {}
-extension LuckyVerse.LuckyVerseLocalPushType : Swift.Hashable {}
-extension LuckyVerse.LuckyVerseLocalPushType : Swift.RawRepresentable {}
+@available(iOS 13.0, *)
+extension LuckyVerse.BannerAdView : Swift.Sendable {}
 extension LuckyVerse.HTTPMethod : Swift.Equatable {}
 extension LuckyVerse.HTTPMethod : Swift.Hashable {}
 extension LuckyVerse.HTTPMethod : Swift.RawRepresentable {}
 extension LuckyVerse.NetworkError : Swift.Equatable {}
 extension LuckyVerse.NetworkError : Swift.Hashable {}
 extension LuckyVerse.NetworkError : Swift.RawRepresentable {}
-@available(iOS 13.0, *)
-extension LuckyVerse.BannerAdView : Swift.Sendable {}
+extension LuckyVerse.LuckyVerseLocalPushType : Swift.Equatable {}
+extension LuckyVerse.LuckyVerseLocalPushType : Swift.Hashable {}
+extension LuckyVerse.LuckyVerseLocalPushType : Swift.RawRepresentable {}
 extension LuckyVerse.LuckyVerseFloatingButton : Swift.Sendable {}

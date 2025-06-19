@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-iOSSample/Pods-iOSSample-frameworks.sh
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/BidmadSDK/BidmadSDK.framework/BidmadSDK
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/LuckyBiteiOS/LuckyVerse.framework/LuckyVerse
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenBiddingHelper/OpenBiddingHelper.framework/OpenBiddingHelper
