@@ -23,11 +23,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        LuckyVerseSDK.shared.updateUSER_ID(userId: "luckybite.hana.test001")
-        LuckyVerseSDK.shared.updateAPP_KEY(APP_KEY: "luckybite.hana.test001")
-        LuckyVerseSDK.shared.updateIDFA(IDFA: "IDFA")
+        LuckyVerseSDK.shared.updateUSER_ID(userId: "매체사 앱에서 사용하는 사용자 식별자")
+        LuckyVerseSDK.shared.updateAPP_KEY(APP_KEY: "테크랩스로부터 전달 받은 앱 키")
+        LuckyVerseSDK.shared.updateIDFA(IDFA: "쿠팡 추적 광고에 사용할 IDFA")
+        LuckyVerseSDK.shared.setRewardAdZoneIdForSaju("사주가 필요한 컨텐츠를 볼 때 쓸 리워드 광고 존 아이디")
+        LuckyVerseSDK.shared.setRewardAdZoneIdForNotSaju("사주가 필요 없는 컨텐츠를 볼 때 쓸 리워드 광고 존 아이디")
+        LuckyVerseSDK.shared.setRewardAdZoneIdForFortuneCookie("포춘쿠키 컨텐츠를 볼 때 쓸 리워드 광고 존 아이디")
+
         LuckyVerseSDK.shared.setGoToSettingSwift {
-            print("SEEEE")
+            print("이곳에 설정으로 이동하는 코드를 작성하세요.")
         }
         
         setupUI()
