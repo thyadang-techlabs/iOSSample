@@ -53,6 +53,7 @@ class ViewController: UIViewController {
     @objc private func luckyButtonTapped() {
         // 버튼 탭 액션 구현
         LuckyVerseSDK.shared.openLuckyVerseMain()
+        
     }
 }
 
