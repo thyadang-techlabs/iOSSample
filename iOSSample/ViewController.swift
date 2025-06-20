@@ -23,6 +23,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        LuckyVerseSDK.shared.initialize()
         LuckyVerseSDK.shared.updateUSER_ID(userId: "매체사 앱에서 사용하는 사용자 식별자")
         LuckyVerseSDK.shared.updateAPP_KEY(APP_KEY: "테크랩스로부터 전달 받은 앱 키")
         LuckyVerseSDK.shared.updateIDFA(IDFA: "쿠팡 추적 광고에 사용할 IDFA")
