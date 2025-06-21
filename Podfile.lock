@@ -19,7 +19,7 @@ PODS:
     - Google-Mobile-Ads-SDK (~> 12.0)
     - MintegralAdSDK/All (= 7.7.8)
   - GoogleUserMessagingPlatform (2.1.0)
-  - LuckyBiteiOS (0.4.59):
+  - LuckyBiteiOS (0.4.60):
     - BidmadSDK (= 6.12.3)
     - OpenBiddingHelper (= 6.12.2)
   - MintegralAdSDK/All (7.7.8):
@@ -85,7 +85,7 @@ SPEC CHECKSUMS:
   Google-Mobile-Ads-SDK: 6df9aadcee32bce0ff05bcad56ef2c88a4a5e82b
   GoogleMobileAdsMediationMintegral: 0aefaa2f0608c210eb26dd6a6207d8c1bd992bbd
   GoogleUserMessagingPlatform: dce302b8f1b84d6e945812ee7a15c3f65a102cbf
-  LuckyBiteiOS: 9d0065b6df8c25ce98715b853e548fce303eaa69
+  LuckyBiteiOS: e07ad904be26ac240de30cd3ccff5dd31e29d16a
   MintegralAdSDK: 07e018290689b906499d8285654bba42681cafcf
   OpenBiddingHelper: a5f8c022695a78920bc6184fc58e5b700be0c7fd
   UnityAds: 358547edbd4c923cd03462289b8813d0ef91999e
