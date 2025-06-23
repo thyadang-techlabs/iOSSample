@@ -1,0 +1,96 @@
+PODS:
+  - BidmadGoogleAdManagerAdapter (12.5.0.11.0):
+    - BidmadSDK (< 6.13.0, >= 6.12.0)
+    - Google-Mobile-Ads-SDK (= 12.5.0)
+  - BidmadGoogleAdMobAdapter (12.5.0.11.0):
+    - BidmadSDK (< 6.13.0, >= 6.12.1)
+    - Google-Mobile-Ads-SDK (= 12.5.0)
+  - BidmadSDK (6.12.3):
+    - GoogleUserMessagingPlatform (= 2.1.0)
+  - BidmadUnityAdsAdapter (4.9.2.11.0):
+    - BidmadSDK (< 6.13.0, >= 6.12.0)
+    - UnityAds (= 4.9.2)
+  - BidmadVungleAdapter (7.1.0.11.0):
+    - BidmadSDK (< 6.13.0, >= 6.12.0)
+    - VungleAds (= 7.1.0)
+  - Google-Mobile-Ads-SDK (12.5.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleMobileAdsMediationMintegral (7.7.8.0):
+    - Google-Mobile-Ads-SDK (~> 12.0)
+    - MintegralAdSDK/All (= 7.7.8)
+  - GoogleUserMessagingPlatform (2.1.0)
+  - LuckyBiteiOS (0.4.65):
+    - BidmadSDK (= 6.12.3)
+    - OpenBiddingHelper (= 6.12.2)
+  - MintegralAdSDK/All (7.7.8):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+    - MintegralAdSDK/NativeAdvancedAd
+    - MintegralAdSDK/NewInterstitialAd
+    - MintegralAdSDK/RewardVideoAd
+    - MintegralAdSDK/SplashAd
+  - MintegralAdSDK/BannerAd (7.7.8):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNativeAd (7.7.8):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/InterstitialVideoAd (7.7.8):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (7.7.8)
+  - MintegralAdSDK/NativeAdvancedAd (7.7.8):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NewInterstitialAd (7.7.8):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (7.7.8):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/SplashAd (7.7.8):
+    - MintegralAdSDK/NativeAd
+  - OpenBiddingHelper (6.12.2):
+    - BidmadSDK (< 6.13.0, >= 6.12.2)
+  - UnityAds (4.9.2)
+  - VungleAds (7.1.0)
+
+DEPENDENCIES:
+  - BidmadGoogleAdManagerAdapter (= 12.5.0.11.0)
+  - BidmadGoogleAdMobAdapter (= 12.5.0.11.0)
+  - BidmadUnityAdsAdapter (= 4.9.2.11.0)
+  - BidmadVungleAdapter (= 7.1.0.11.0)
+  - GoogleMobileAdsMediationMintegral (= 7.7.8.0)
+  - LuckyBiteiOS
+
+SPEC REPOS:
+  trunk:
+    - BidmadGoogleAdManagerAdapter
+    - BidmadGoogleAdMobAdapter
+    - BidmadSDK
+    - BidmadUnityAdsAdapter
+    - BidmadVungleAdapter
+    - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationMintegral
+    - GoogleUserMessagingPlatform
+    - LuckyBiteiOS
+    - MintegralAdSDK
+    - OpenBiddingHelper
+    - UnityAds
+    - VungleAds
+
+SPEC CHECKSUMS:
+  BidmadGoogleAdManagerAdapter: a1884edb88fdee72e15ff6e36c788494fcb22a8a
+  BidmadGoogleAdMobAdapter: b744f5976363b6cbcc51ee2a3d61b86a7d2c9527
+  BidmadSDK: fd1e1c364bd57d1e58f80eb8a95e04b0dc5b8ba2
+  BidmadUnityAdsAdapter: 344e7cd77605dacdbff42cdd8c43f06ff3c13718
+  BidmadVungleAdapter: b11566d10271b2da5f2e348eb9d9f7b64cbcccf6
+  Google-Mobile-Ads-SDK: 6df9aadcee32bce0ff05bcad56ef2c88a4a5e82b
+  GoogleMobileAdsMediationMintegral: 0aefaa2f0608c210eb26dd6a6207d8c1bd992bbd
+  GoogleUserMessagingPlatform: dce302b8f1b84d6e945812ee7a15c3f65a102cbf
+  LuckyBiteiOS: c88feca7217c657b60dba8a884a39a781eb06876
+  MintegralAdSDK: 07e018290689b906499d8285654bba42681cafcf
+  OpenBiddingHelper: a5f8c022695a78920bc6184fc58e5b700be0c7fd
+  UnityAds: 358547edbd4c923cd03462289b8813d0ef91999e
+  VungleAds: e13f0ea8facb05d5511e31c5abcced79a82409e7
+
+PODFILE CHECKSUM: c1da7077adb7d8e817e78258ffb2aca0b6ab86f0
+
+COCOAPODS: 1.16.2
