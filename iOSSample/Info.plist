@@ -24,9 +24,9 @@
 		</dict>
 	</dict>
 	<key>GADApplicationIdentifier</key>
-	<string>테크랩스로부터 전달받은 애드몹 앱 아이디</string>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>BidmadAppDomain</key>
-	<string>테크랩스로부터 발급받은 앱 도메인</string>
+	<string>common-serving-bidmad.adop.co.kr</string>
 	<key>NSCameraUsageDescription</key>
 	<string>카메라 접근 권한이 필요합니다.</string>
 </dict>

@@ -4,7 +4,7 @@
 target 'iOSSample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod "LuckyBiteiOS"
+  pod "LuckyBiteiOS", "0.4.69"
 
   pod 'BidmadGoogleAdMobAdapter', '12.5.0.11.0'
   pod 'BidmadGoogleAdManagerAdapter', '12.5.0.11.0'
